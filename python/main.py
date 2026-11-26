@@ -1,155 +1,95 @@
-
-import pandas as pd
-import numpy as np
-
-# ==================================
-# BANKING & FINANCIAL ANALYTICS
-# ==================================
-
-# Loading datasets
-
-customers = pd.read_csv("dataset/customers.csv")
-
-transactions = pd.read_csv("dataset/transactions.csv")
-
-loans = pd.read_csv("dataset/loans.csv")
-
-
-# Display project heading
-
-print("=" * 50)
-print("BANKING & FINANCIAL ANALYTICS PROJECT")
-print("=" * 50)
-
-
-# Display Customer Data
-
-print("\n CUSTOMER DATA")
-print(customers.head())
-
-
-# Display Transaction Data
-
-print("\n TRANSACTION DATA")
-print(transactions.head())
-
-
-# Display Loan Data
-
-print("\n LOAN DATA")
-print(loans.head())
-
-
-# Dataset Information
-
-print("\n DATASET SHAPES")
-
-print("Customers:", customers.shape)
-
-print("Transactions:", transactions.shape)
-
-print("Loans:", loans.shape)
-
-# ==================================
-# DATA CLEANING
-# ==================================
-
-print("\n===== MISSING VALUES CHECK =====")
-
-print("\nCustomer Missing Values:")
-print(customers.isnull().sum())
-
-print("\nTransaction Missing Values:")
-print(transactions.isnull().sum())
-
-print("\nLoan Missing Values:")
-print(loans.isnull().sum())
-
-print("\n===== DUPLICATE RECORDS =====")
-
-print("Customers:", customers.duplicated().sum())
-
-print("Transactions:", transactions.duplicated().sum())
-
-print("Loans:", loans.duplicated().sum())
-
-print("\n===== DATA TYPES =====")
-
-print(customers.dtypes)
-
-print(transactions.dtypes)
-
-print(loans.dtypes)
-
-# ==================================
-# DATE FORMAT CONVERSION
-# ==================================
-
-customers["join_date"] = pd.to_datetime(
-    customers["join_date"]
-)
-
-transactions["transaction_date"] = pd.to_datetime(
-    transactions["transaction_date"]
-)
-
-loans["loan_date"] = pd.to_datetime(
-    loans["loan_date"]
-)
-
-print("\n===== UPDATED DATA TYPES =====")
-
-print(customers.dtypes)
-print(transactions.dtypes)
-print(loans.dtypes)
-
+from __future__ import annotations
 
 import sqlite3
+from pathlib import Path
+
 import pandas as pd
 
-# Connect to SQLite database
 
-conn = sqlite3.connect("banking.db")
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DATASET_DIR = PROJECT_ROOT / "dataset"
+DATABASE_PATH = PROJECT_ROOT / "banking.db"
 
-# Load CSV datasets
+DATE_COLUMNS = {
+    "customers": "join_date",
+    "transactions": "transaction_date",
+    "loans": "loan_date",
+}
 
-customers = pd.read_csv("dataset/customers.csv")
-transactions = pd.read_csv("dataset/transactions.csv")
-loans = pd.read_csv("dataset/loans.csv")
 
-# Convert datasets into SQL tables
+def load_datasets() -> dict[str, pd.DataFrame]:
+    datasets = {
+        "customers": pd.read_csv(DATASET_DIR / "customers.csv"),
+        "transactions": pd.read_csv(DATASET_DIR / "transactions.csv"),
+        "loans": pd.read_csv(DATASET_DIR / "loans.csv"),
+    }
 
-customers.to_sql(
-    "customers",
-    conn,
-    if_exists="replace",
-    index=False
-)
+    for table_name, frame in datasets.items():
+        date_column = DATE_COLUMNS[table_name]
+        frame[date_column] = pd.to_datetime(frame[date_column], errors="raise")
 
-transactions.to_sql(
-    "transactions",
-    conn,
-    if_exists="replace",
-    index=False
-)
+    return datasets
 
-loans.to_sql(
-    "loans",
-    conn,
-    if_exists="replace",
-    index=False
-)
 
-print("All tables created successfully!")
+def print_data_checks(datasets: dict[str, pd.DataFrame]) -> None:
+    print("=" * 50)
+    print("BANKING & FINANCIAL ANALYTICS PROJECT")
+    print("=" * 50)
 
-# Verify tables
+    for table_name, frame in datasets.items():
+        print(f"\n{table_name.upper()} DATA")
+        print(frame.head())
+        print(f"\n{table_name.upper()} SHAPE")
+        print(frame.shape)
+        print(f"\n{table_name.upper()} MISSING VALUES")
+        print(frame.isnull().sum())
+        print(f"\n{table_name.upper()} DUPLICATE RECORDS")
+        print(frame.duplicated().sum())
+        print(f"\n{table_name.upper()} DATA TYPES")
+        print(frame.dtypes)
 
-cursor = conn.cursor()
 
-cursor.execute(
-    "SELECT name FROM sqlite_master WHERE type='table'"
-)
+def initialize_missing_database_tables(
+    database_path: Path = DATABASE_PATH,
+) -> list[str]:
+    """Create missing tables without replacing or modifying existing tables."""
+    datasets = load_datasets()
+    created_tables: list[str] = []
 
-print(cursor.fetchall())
+    with sqlite3.connect(database_path) as connection:
+        existing_tables = {
+            row[0]
+            for row in connection.execute(
+                "SELECT name FROM sqlite_master WHERE type = 'table'"
+            )
+        }
+        for table_name, frame in datasets.items():
+            if table_name in existing_tables:
+                continue
+            frame.to_sql(table_name, connection, if_exists="fail", index=False)
+            created_tables.append(table_name)
 
-conn.close()
+        table_names = [
+            row[0]
+            for row in connection.execute(
+                "SELECT name FROM sqlite_master WHERE type = 'table'"
+            )
+        ]
+        print("Database tables:", table_names)
+
+    return created_tables
+
+
+def main() -> None:
+    datasets = load_datasets()
+    print_data_checks(datasets)
+
+    created_tables = initialize_missing_database_tables()
+    if created_tables:
+        print("Created missing tables:", ", ".join(created_tables))
+    else:
+        print("Existing database tables were preserved; no tables were replaced.")
+
+
+if __name__ == "__main__":
+    main()

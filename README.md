@@ -1,205 +1,103 @@
 # Banking & Financial Analytics
 
-A data analytics project focused on exploring banking customers, financial transactions, loan performance, and credit risk using Python, SQL, and Excel.
+A portfolio-ready Streamlit dashboard for exploring banking operations, customer segments, transactions, and credit risk. The project creates its own reproducible synthetic dataset locally; it does not ship customer CSV files, a database, or generated reports.
 
-## 1. Project Overview
+## Features
 
-This project analyzes synthetic banking and financial datasets to identify business insights, understand customer behavior, monitor transaction trends, and evaluate loan performance.
+- Overview KPIs and interactive Plotly visualizations
+- Customer, transaction, loan, and credit-risk analytics
+- Date, city, and account-type filters
+- Searchable, sortable data tables
+- Filtered CSV, Excel, and PDF exports
+- SQLite database access is read-only in the dashboard
+- Seeded Faker data generation with a configurable record count
 
-Python is used for data cleaning and exploratory data analysis (EDA), SQLite is used for SQL-based analysis, and Excel is used to create a dashboard-style financial report.
+## Technology
 
-## 2. Project Objectives
+Python 3.12+, Streamlit, Pandas, NumPy, Plotly, Faker, SQLite, OpenPyXL, and ReportLab.
 
-- Analyze customer demographics and account balances.
-- Understand transaction patterns and trends.
-- Evaluate loan distribution and loan status.
-- Identify potential loan default risks.
-- Compare financial performance across cities.
-- Present key business insights through an Excel dashboard.
+## Setup
 
-## 3. Technologies Used
-
-| Technology | Purpose |
-|---|---|
-| Python | Data analysis and processing |
-| Pandas | Data manipulation and cleaning |
-| NumPy | Numerical operations |
-| SQLite | Database management |
-| SQL | Data querying and analysis |
-| Matplotlib | Data visualization |
-| Seaborn | Statistical visualization |
-| Excel | Dashboard and reporting |
-| OpenPyXL | Excel automation and formatting |
-
-## 4. Dataset Description
-
-The project uses three synthetic datasets:
-
-| Dataset | Records | Description |
-|---|---:|---|
-| Customers | 500 | Customer and account information |
-| Transactions | 5,000 | Banking transaction records |
-| Loans | 800 | Loan information and status |
-
-The datasets are connected using the common `customer_id` field.
-
-**Note:** All datasets are synthetic and created for educational and portfolio purposes.
-
-## 5. Python Analysis
-
-Python and Pandas were used for:
-
-- Loading and inspecting datasets.
-- Checking missing values.
-- Identifying duplicate records.
-- Converting date columns.
-- Generating statistical summaries.
-- Performing exploratory data analysis (EDA).
-- Creating data visualizations.
-
-## 6. SQL Analysis
-
-SQLite and SQL were used to perform:
-
-- Customer and transaction analysis.
-- City-wise transaction analysis.
-- Account type analysis.
-- Top customers by account balance.
-- Credit score categorization.
-- Loan status analysis.
-- Credit score versus loan default analysis.
-- City-wise loan risk analysis.
-- Window functions and customer ranking.
-- Running totals and transaction comparisons.
-
-## 7. Excel Dashboard
-
-The Excel workbook contains the following analysis sheets:
-
-- Dashboard
-- Customers
-- Transactions
-- Loans
-- Transaction Summary
-- Loan Summary
-- City Analysis
-- Credit Risk
-
-The dashboard presents key performance indicators (KPIs) and charts for transaction activity, loan status, and city-wise transaction performance.
-
-## 8. Key Business Insights
-
-Based on the project analysis:
-
-- **500 customers** were analyzed.
-- **5,000 transactions** were examined.
-- **800 loans** were analyzed.
-- Deposit transactions have the highest transaction count.
-- Delhi has the highest transaction volume among the analyzed cities.
-- Active loans represent the largest loan-status category.
-- The overall loan default rate is approximately **8.88%**.
-- Customers in the low credit score category have a higher loan default percentage than customers in higher credit score categories.
-
-## 9. Project Structure
-
-```text
-Banking_Financial_Analytics/
-│
-├── dataset/
-│   ├── customers.csv
-│   ├── transactions.csv
-│   ├── loans.csv
-│   └── README.txt
-│
-├── python/
-│   ├── main.py
-│   ├── data_cleaning.py
-│   ├── eda.py
-│   ├── export_data.py
-│   ├── format_dashboard.py
-│   └── format_charts.py
-│
-├── sql/
-│   ├── banking.db
-│   ├── banking_analysis.sql
-│   └── banking_analysis_queries.sql
-│
-├── reports/
-│   ├── Banking_Financial_Analytics.xlsx
-│   ├── Banking_Financial_Analytics_formatted.xlsx
-│   └── Banking_Financial_Analytics_final.xlsx
-│
-├── dashboard/
-│
-├── requirements.txt
-└── README.md
-```
-
-## 10. How to Run the Project
-
-### Step 1: Clone the repository
+From the project root:
 
 ```bash
-git clone <your-github-repository-url>
-cd Banking_Financial_Analytics
-```
-
-### Step 2: Create a virtual environment
-
-```bash
-python -m venv .venv
-```
-
-Activate it:
-
-**macOS / Linux**
-```bash
+python3.12 -m venv .venv
 source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
 
-**Windows**
-```bash
-.venv\Scripts\activate
-```
-
-### Step 3: Install dependencies
+Generate the local CSV files and SQLite database:
 
 ```bash
-pip install -r requirements.txt
+python -m python.generate_synthetic_data --seed 20261126
 ```
 
-### Step 4: Run the Python scripts
+Generation stops if its output files already exist. To deliberately regenerate them:
 
-Run the scripts from the project root:
+```bash
+python -m python.generate_synthetic_data --seed 20261126 --overwrite
+```
+
+### Fictional data contract
+
+The source project has customers, transactions, and loans tables. This generator keeps their existing fields and adds `customer_name` to customers. Every name is prefixed with `Demo`, customer/transaction/loan IDs are generated, city values are labels such as `City A`, and all amounts, scores, statuses, and dates are newly generated. No original database, workbook, or CSV records are read or copied. Contact details and account numbers are not generated.
+
+The default output contains exactly 500 customers, 5,000 transactions, and 800 loans. Faker and NumPy are both seeded from `--seed`; repeating a seed with the pinned Faker dependency reproduces the same records. Every transaction and loan customer ID is selected from the generated customer IDs. The SQLite database includes a `dataset_metadata` row explicitly labeled **FICTIONAL DEMONSTRATION DATA** with the seed and generator library versions.
+
+Generated CSVs and the SQLite database are local-only and ignored by Git. Their fictional status is also documented in [`dataset/README.md`](dataset/README.md).
+
+## Run the dashboard
+
+Run from the project root:
+
+```bash
+PYTHONPATH="$PWD" .venv/bin/python -m streamlit run dashboard/app.py
+```
+
+Then open [http://localhost:8501](http://localhost:8501). Keep the terminal open while using the dashboard.
+
+PowerShell:
+
+```powershell
+$env:PYTHONPATH = (Get-Location).Path
+.\.venv\Scripts\python.exe -m streamlit run dashboard/app.py
+```
+
+## Hosted deployment
+
+No hosted deployment target is configured or tested. A clean checkout intentionally has no database or CSV data, so a host must run the synthetic-data generator with a chosen seed before starting Streamlit. Do not commit generated data to make deployment work. Use a host with a supported pre-start/build step and persistent-enough local storage for the generated database; provider-specific setup remains to be added and verified.
+
+## Analysis scripts
+
+After generating the data, the existing Python scripts can inspect it and create local Excel reports:
 
 ```bash
 python python/main.py
-python python/data_cleaning.py
 python python/eda.py
 python python/export_data.py
-```
-
-### Step 5: Generate the formatted Excel report
-
-```bash
 python python/format_dashboard.py
 python python/format_charts.py
 ```
 
-### Step 6: Open the final report
+These report scripts use only the generated local CSV files. Their outputs are excluded from Git.
 
-Open:
+## SQL
 
-```text
-reports/Banking_Financial_Analytics_final.xlsx
+The read-only analysis queries are in [`sql/banking_analysis_queries.sql`](sql/banking_analysis_queries.sql). Run them against the locally generated `banking.db` using a SQLite client.
+
+## Tests
+
+```bash
+python -m unittest discover -s tests -v
 ```
 
-## 11. Conclusion
+Tests generate isolated synthetic data in temporary directories and do not require the local database.
 
-This project demonstrates practical skills in Python-based data analysis, SQL querying, financial data exploration, data visualization, and Excel reporting.
+## Screenshots
 
-It provides a structured analysis of customer accounts, banking transactions, loan performance, and credit risk.
+Add genuine dashboard screenshots under `docs/screenshots/` before publishing. No screenshots are included yet.
 
----
+## Data and privacy
 
-**Disclaimer:** This project uses synthetic data and is intended for educational and portfolio demonstration purposes only.
+The generator creates fictional demonstration records from Faker and NumPy using a reproducible seed. Do not put real customer or financial information in this repository. Generated databases, CSVs, exports, virtual environments, caches, and local Streamlit configuration are ignored.

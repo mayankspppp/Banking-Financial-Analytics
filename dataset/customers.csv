@@ -1,501 +1,501 @@
-customer_id,age,gender,city,account_type,account_balance,credit_score,join_date
-C0001,25,Male,Pune,Savings,58126.01,701,2024-02-25
-C0002,59,Male,Mumbai,Savings,15067.74,648,2020-01-15
-C0003,53,Female,Delhi,Savings,13588.68,672,2020-10-11
-C0004,42,Female,Mumbai,Savings,38861.71,675,2025-05-01
-C0005,42,Female,Pune,Savings,59328.35,642,2021-02-26
-C0006,63,Male,Delhi,Savings,27783.71,722,2019-04-12
-C0007,25,Male,Bengaluru,Current,9613.13,705,2018-03-09
-C0008,55,Female,Jaipur,Savings,9061.53,684,2019-12-27
-C0009,31,Female,Chandigarh,Savings,8589.46,662,2026-01-05
-C0010,25,Male,Lucknow,Savings,6541.37,742,2022-10-22
-C0011,47,Female,Mumbai,Savings,29365.87,675,2026-09-19
-C0012,69,Male,Delhi,Savings,66173.49,670,2019-11-20
-C0013,57,Female,Lucknow,Savings,26615.99,697,2021-01-29
-C0014,59,Female,Mumbai,Current,4410.17,800,2019-06-07
-C0015,56,Male,Delhi,Savings,23095.47,603,2021-06-28
-C0016,60,Female,Bengaluru,Savings,23617.91,740,2022-12-08
-C0017,46,Female,Jaipur,Savings,143889.22,567,2025-01-30
-C0018,27,Female,Ludhiana,Current,8385.75,704,2021-03-23
-C0019,62,Female,Jaipur,Savings,19681.96,792,2024-10-04
-C0020,43,Female,Jaipur,Savings,105311.95,722,2023-06-27
-C0021,46,Female,Chandigarh,Current,38560.46,701,2020-07-22
-C0022,39,Female,Lucknow,Savings,42220.05,654,2025-12-29
-C0023,30,Female,Delhi,Current,29485.9,692,2021-10-21
-C0024,67,Male,Delhi,Savings,35029.81,674,2019-04-29
-C0025,60,Male,Pune,Savings,50115.6,639,2026-06-08
-C0026,53,Female,Ludhiana,Savings,14078.6,671,2026-01-01
-C0027,41,Female,Mumbai,Current,54309.09,703,2018-06-08
-C0028,62,Male,Delhi,Savings,8969.61,640,2025-11-27
-C0029,48,Male,Ludhiana,Savings,34985.69,638,2026-04-20
-C0030,43,Male,Bengaluru,Savings,31038.78,602,2025-04-07
-C0031,43,Female,Ludhiana,Savings,16431.66,715,2020-03-26
-C0032,32,Female,Ludhiana,Savings,26419.34,725,2023-07-14
-C0033,25,Female,Bengaluru,Savings,16349.75,705,2022-09-19
-C0034,48,Female,Delhi,Current,11414.49,753,2023-06-08
-C0035,65,Male,Chandigarh,Savings,20274.28,696,2023-05-27
-C0036,24,Female,Ludhiana,Savings,11123.43,715,2023-08-08
-C0037,63,Female,Delhi,Savings,34830.13,710,2022-07-03
-C0038,62,Female,Ludhiana,Savings,10720.7,684,2024-01-19
-C0039,34,Male,Lucknow,Savings,47552.12,655,2022-08-13
-C0040,52,Female,Pune,Savings,10454.8,834,2018-02-22
-C0041,29,Male,Jaipur,Savings,17102.23,661,2018-04-23
-C0042,58,Female,Delhi,Savings,16322.79,647,2026-05-24
-C0043,56,Male,Ludhiana,Savings,77661.69,718,2025-12-19
-C0044,38,Female,Pune,Savings,35039.52,706,2023-02-17
-C0045,24,Male,Delhi,Savings,22711.19,599,2019-07-13
-C0046,69,Male,Pune,Savings,40093.74,763,2024-11-05
-C0047,43,Male,Lucknow,Savings,4985.29,684,2019-04-04
-C0048,65,Male,Chandigarh,Savings,25990.68,618,2021-04-22
-C0049,54,Male,Jaipur,Current,132987.62,767,2020-11-21
-C0050,59,Male,Ludhiana,Savings,29907.88,731,2018-02-09
-C0051,58,Male,Mumbai,Savings,28405.29,608,2025-01-26
-C0052,30,Female,Chandigarh,Savings,41710.27,806,2022-06-20
-C0053,39,Male,Pune,Savings,55076.82,733,2020-10-09
-C0054,44,Male,Pune,Savings,5442.68,689,2022-06-12
-C0055,45,Male,Jaipur,Savings,7003.31,793,2018-01-01
-C0056,23,Male,Delhi,Savings,31832.18,700,2021-10-30
-C0057,48,Female,Bengaluru,Current,15185.54,688,2022-07-21
-C0058,28,Male,Chandigarh,Savings,76850.73,647,2020-12-23
-C0059,58,Female,Bengaluru,Savings,20907.44,728,2025-04-11
-C0060,55,Female,Chandigarh,Savings,5723.73,721,2020-03-10
-C0061,67,Male,Mumbai,Current,9755.52,691,2019-03-18
-C0062,58,Female,Mumbai,Savings,2981.73,639,2022-08-16
-C0063,39,Female,Delhi,Savings,22307.98,698,2025-10-10
-C0064,69,Female,Bengaluru,Savings,23139.41,685,2021-04-15
-C0065,41,Female,Pune,Savings,19157.12,603,2018-05-30
-C0066,37,Female,Jaipur,Current,63774.15,594,2026-07-01
-C0067,66,Female,Bengaluru,Savings,70179.8,727,2021-11-22
-C0068,39,Male,Pune,Savings,23474.95,521,2019-07-08
-C0069,24,Female,Bengaluru,Savings,4876.8,703,2023-05-24
-C0070,44,Male,Bengaluru,Savings,44082.81,659,2020-10-19
-C0071,60,Male,Ludhiana,Current,41952.29,775,2026-03-20
-C0072,30,Male,Mumbai,Savings,34458.58,658,2020-07-29
-C0073,44,Female,Lucknow,Savings,58993.57,733,2022-10-27
-C0074,27,Male,Chandigarh,Current,10595.0,664,2022-10-05
-C0075,55,Male,Delhi,Current,134188.97,697,2020-02-15
-C0076,44,Male,Mumbai,Savings,12487.18,738,2022-05-17
-C0077,37,Male,Pune,Savings,48990.34,660,2018-12-16
-C0078,32,Male,Chandigarh,Savings,6975.24,755,2023-08-22
-C0079,49,Male,Ludhiana,Savings,12781.94,625,2024-08-23
-C0080,54,Female,Pune,Savings,90499.08,709,2026-04-29
-C0081,68,Male,Mumbai,Savings,21835.23,750,2020-11-08
-C0082,42,Female,Delhi,Current,52677.2,733,2020-07-01
-C0083,29,Male,Pune,Current,32518.5,815,2022-10-23
-C0084,62,Male,Jaipur,Current,24736.46,640,2024-01-26
-C0085,52,Female,Lucknow,Current,80103.94,600,2026-09-11
-C0086,56,Male,Mumbai,Savings,22262.81,625,2018-03-22
-C0087,25,Female,Chandigarh,Savings,6473.09,733,2020-02-02
-C0088,36,Male,Ludhiana,Savings,14149.12,722,2020-04-19
-C0089,59,Female,Chandigarh,Savings,41812.62,697,2020-03-28
-C0090,62,Male,Ludhiana,Savings,36916.26,617,2022-01-23
-C0091,42,Female,Lucknow,Savings,7679.84,740,2025-08-25
-C0092,61,Male,Mumbai,Savings,15070.97,610,2018-04-10
-C0093,63,Male,Jaipur,Savings,16892.46,765,2025-02-23
-C0094,40,Male,Ludhiana,Savings,20082.91,850,2023-05-31
-C0095,65,Male,Lucknow,Savings,8948.75,714,2023-05-23
-C0096,35,Male,Delhi,Savings,16273.66,728,2023-12-11
-C0097,32,Male,Lucknow,Savings,15019.6,658,2019-01-05
-C0098,55,Female,Lucknow,Current,49872.58,572,2024-07-17
-C0099,52,Male,Chandigarh,Current,51395.05,651,2020-03-05
-C0100,27,Female,Lucknow,Savings,23941.09,619,2022-07-12
-C0101,62,Male,Mumbai,Savings,19660.53,596,2023-12-07
-C0102,30,Female,Lucknow,Savings,30089.74,802,2023-04-17
-C0103,61,Male,Chandigarh,Current,13998.98,708,2020-10-30
-C0104,21,Male,Mumbai,Current,10748.64,715,2021-06-21
-C0105,60,Male,Ludhiana,Savings,12680.53,670,2022-03-05
-C0106,60,Male,Bengaluru,Savings,16190.01,679,2018-05-13
-C0107,60,Male,Delhi,Savings,10606.49,753,2024-05-12
-C0108,54,Male,Pune,Savings,30627.32,688,2018-11-16
-C0109,44,Male,Delhi,Current,48231.74,724,2022-01-07
-C0110,56,Male,Delhi,Savings,7557.69,677,2023-09-27
-C0111,34,Male,Chandigarh,Savings,27449.49,668,2018-09-15
-C0112,60,Female,Delhi,Savings,22562.65,599,2026-09-21
-C0113,48,Female,Lucknow,Savings,35355.42,561,2021-04-22
-C0114,43,Female,Lucknow,Current,26626.15,673,2018-02-20
-C0115,46,Male,Ludhiana,Current,8409.53,694,2023-10-09
-C0116,49,Female,Delhi,Savings,9799.52,606,2022-11-20
-C0117,22,Male,Chandigarh,Savings,27543.97,688,2023-08-12
-C0118,27,Male,Pune,Current,61268.72,693,2024-07-31
-C0119,33,Female,Ludhiana,Savings,4576.32,550,2022-03-03
-C0120,26,Male,Bengaluru,Current,35474.92,631,2025-03-30
-C0121,42,Male,Mumbai,Savings,69682.02,716,2021-03-30
-C0122,54,Female,Ludhiana,Savings,23803.3,715,2022-10-11
-C0123,53,Female,Bengaluru,Current,41779.54,615,2019-05-23
-C0124,44,Female,Ludhiana,Savings,15329.66,700,2023-06-07
-C0125,63,Female,Pune,Savings,24452.97,756,2020-04-17
-C0126,49,Female,Bengaluru,Savings,7355.98,741,2024-02-08
-C0127,24,Male,Pune,Savings,4123.78,684,2025-01-07
-C0128,59,Female,Pune,Savings,57194.48,660,2025-07-11
-C0129,49,Female,Jaipur,Savings,12234.36,649,2026-02-21
-C0130,52,Male,Delhi,Current,18686.89,720,2019-01-27
-C0131,49,Male,Pune,Current,8873.69,703,2019-03-18
-C0132,48,Male,Bengaluru,Savings,8708.23,731,2026-02-11
-C0133,25,Male,Ludhiana,Savings,23410.26,699,2021-05-03
-C0134,48,Male,Bengaluru,Savings,15007.99,743,2018-03-25
-C0135,60,Female,Jaipur,Current,36401.92,696,2020-07-07
-C0136,36,Other,Pune,Savings,38639.51,741,2025-04-29
-C0137,51,Male,Delhi,Savings,34775.89,747,2021-02-09
-C0138,22,Male,Pune,Savings,32561.33,638,2018-09-03
-C0139,38,Female,Delhi,Savings,95055.34,572,2024-04-29
-C0140,42,Male,Mumbai,Savings,11452.06,790,2019-09-15
-C0141,70,Male,Lucknow,Savings,25746.45,707,2021-02-02
-C0142,31,Female,Ludhiana,Current,66579.49,579,2018-01-13
-C0143,34,Male,Jaipur,Current,73986.05,644,2023-04-11
-C0144,41,Male,Pune,Current,8626.46,740,2021-11-25
-C0145,70,Female,Delhi,Savings,20954.65,672,2025-08-06
-C0146,63,Female,Mumbai,Savings,79737.63,657,2020-12-05
-C0147,22,Male,Mumbai,Savings,40395.08,781,2019-10-17
-C0148,32,Female,Lucknow,Current,31451.77,622,2019-06-16
-C0149,62,Female,Bengaluru,Savings,22603.32,638,2019-10-03
-C0150,23,Female,Chandigarh,Current,19790.54,704,2021-12-14
-C0151,63,Female,Delhi,Savings,33879.83,715,2018-10-06
-C0152,35,Male,Ludhiana,Current,21984.67,722,2021-07-11
-C0153,66,Male,Ludhiana,Savings,26002.22,749,2025-06-27
-C0154,35,Female,Pune,Savings,28649.15,703,2024-09-22
-C0155,42,Other,Delhi,Savings,15639.31,722,2023-08-02
-C0156,54,Male,Delhi,Savings,41179.82,673,2025-10-29
-C0157,27,Female,Chandigarh,Savings,276895.57,694,2024-11-01
-C0158,48,Male,Chandigarh,Savings,6492.55,697,2023-09-20
-C0159,46,Female,Chandigarh,Savings,34864.0,704,2025-07-24
-C0160,60,Other,Mumbai,Savings,14644.91,740,2019-02-03
-C0161,70,Male,Pune,Savings,42698.63,726,2025-03-03
-C0162,54,Male,Pune,Savings,27924.12,693,2020-08-03
-C0163,41,Female,Delhi,Current,49487.92,637,2024-06-03
-C0164,41,Male,Pune,Savings,68899.57,694,2026-01-01
-C0165,41,Female,Pune,Savings,31380.34,688,2022-05-07
-C0166,61,Female,Jaipur,Current,66545.54,703,2018-10-11
-C0167,37,Female,Chandigarh,Current,4123.93,833,2021-03-30
-C0168,29,Male,Lucknow,Savings,96024.81,656,2021-07-25
-C0169,37,Female,Pune,Current,36317.31,717,2026-03-17
-C0170,22,Male,Lucknow,Savings,63721.33,759,2026-04-05
-C0171,26,Male,Chandigarh,Savings,10138.54,696,2022-12-25
-C0172,25,Female,Pune,Savings,13840.91,842,2026-05-01
-C0173,59,Female,Mumbai,Savings,30234.85,665,2021-10-28
-C0174,57,Female,Chandigarh,Savings,26538.98,711,2021-08-08
-C0175,55,Male,Lucknow,Savings,33740.52,638,2025-04-30
-C0176,44,Male,Bengaluru,Savings,64062.35,667,2023-11-06
-C0177,56,Female,Delhi,Savings,6553.95,706,2022-07-30
-C0178,29,Male,Jaipur,Savings,58633.13,745,2022-01-01
-C0179,66,Female,Bengaluru,Savings,27082.03,711,2024-03-07
-C0180,46,Male,Pune,Savings,22856.13,772,2024-08-08
-C0181,67,Male,Bengaluru,Savings,8292.51,684,2022-04-19
-C0182,28,Male,Ludhiana,Savings,40232.84,668,2018-04-12
-C0183,45,Male,Ludhiana,Savings,3899.93,850,2018-11-22
-C0184,55,Male,Chandigarh,Savings,45193.8,716,2019-04-07
-C0185,45,Female,Mumbai,Savings,8154.42,643,2022-01-18
-C0186,43,Female,Pune,Current,28078.69,645,2023-05-20
-C0187,29,Female,Jaipur,Savings,24456.83,629,2025-01-16
-C0188,40,Male,Jaipur,Current,68571.38,751,2020-01-15
-C0189,32,Male,Bengaluru,Savings,23320.22,666,2024-11-22
-C0190,36,Male,Ludhiana,Savings,15439.57,698,2023-11-02
-C0191,55,Male,Chandigarh,Savings,17938.74,686,2018-06-15
-C0192,52,Female,Bengaluru,Savings,74481.51,738,2021-01-28
-C0193,51,Male,Lucknow,Current,41317.34,635,2020-08-26
-C0194,39,Female,Jaipur,Current,19761.6,620,2025-10-08
-C0195,68,Female,Delhi,Current,22266.6,705,2026-01-26
-C0196,25,Male,Lucknow,Savings,7679.11,729,2025-03-06
-C0197,38,Other,Jaipur,Savings,36709.08,712,2022-08-17
-C0198,26,Male,Delhi,Savings,6582.35,637,2022-04-27
-C0199,37,Female,Mumbai,Savings,49091.3,734,2020-09-23
-C0200,69,Male,Bengaluru,Savings,29818.89,642,2024-10-09
-C0201,39,Female,Mumbai,Savings,181599.94,656,2018-10-04
-C0202,66,Male,Delhi,Savings,11157.77,629,2020-05-17
-C0203,45,Male,Lucknow,Current,24781.94,775,2019-03-09
-C0204,55,Female,Delhi,Savings,113394.73,731,2022-05-01
-C0205,43,Female,Bengaluru,Savings,69780.63,729,2020-08-17
-C0206,34,Female,Chandigarh,Savings,15413.98,771,2019-09-24
-C0207,59,Other,Bengaluru,Savings,32182.37,850,2021-04-19
-C0208,69,Female,Bengaluru,Savings,26946.25,579,2025-07-17
-C0209,34,Male,Delhi,Savings,33710.5,642,2022-11-21
-C0210,59,Male,Delhi,Savings,15383.57,650,2025-03-18
-C0211,34,Male,Mumbai,Savings,25047.86,635,2026-01-03
-C0212,56,Female,Jaipur,Current,7491.75,620,2025-11-26
-C0213,60,Male,Bengaluru,Savings,29974.39,671,2021-01-28
-C0214,43,Female,Lucknow,Savings,38561.77,611,2025-09-08
-C0215,57,Male,Lucknow,Savings,22427.98,712,2025-12-20
-C0216,34,Male,Bengaluru,Savings,7390.56,693,2026-05-29
-C0217,24,Male,Lucknow,Savings,59327.34,721,2021-01-28
-C0218,25,Male,Jaipur,Savings,36012.45,723,2020-01-01
-C0219,43,Female,Jaipur,Savings,15050.82,729,2023-02-13
-C0220,66,Male,Pune,Savings,21493.8,666,2026-03-01
-C0221,27,Female,Ludhiana,Savings,8098.75,828,2025-11-21
-C0222,43,Male,Lucknow,Savings,11845.13,705,2023-01-02
-C0223,56,Female,Lucknow,Current,17496.41,569,2019-04-23
-C0224,31,Female,Lucknow,Savings,71878.8,625,2021-09-13
-C0225,57,Female,Pune,Savings,16129.37,577,2024-04-04
-C0226,36,Female,Chandigarh,Current,44899.01,691,2022-11-29
-C0227,61,Female,Bengaluru,Savings,17489.34,682,2021-01-10
-C0228,49,Male,Pune,Savings,32805.72,660,2021-01-01
-C0229,48,Male,Jaipur,Current,24025.8,821,2018-07-11
-C0230,29,Female,Ludhiana,Savings,54092.2,726,2020-07-12
-C0231,44,Female,Chandigarh,Savings,17538.45,737,2023-11-13
-C0232,63,Female,Bengaluru,Savings,7646.3,629,2020-02-12
-C0233,21,Male,Lucknow,Savings,8905.65,625,2026-09-14
-C0234,58,Female,Chandigarh,Savings,17579.66,692,2018-09-21
-C0235,45,Female,Chandigarh,Savings,9904.57,701,2023-02-28
-C0236,56,Female,Chandigarh,Savings,37353.04,569,2022-05-09
-C0237,54,Male,Pune,Savings,18534.43,678,2025-04-20
-C0238,42,Female,Ludhiana,Savings,179815.25,691,2025-10-11
-C0239,36,Male,Ludhiana,Savings,6699.77,676,2022-10-06
-C0240,52,Male,Delhi,Savings,31663.08,637,2023-07-10
-C0241,28,Male,Jaipur,Current,10912.21,655,2024-02-15
-C0242,50,Male,Lucknow,Savings,18129.2,679,2022-07-26
-C0243,25,Male,Jaipur,Savings,30125.75,696,2019-08-15
-C0244,53,Female,Ludhiana,Savings,4186.85,729,2021-10-03
-C0245,52,Male,Delhi,Savings,32515.13,760,2020-02-12
-C0246,25,Male,Bengaluru,Savings,123293.87,671,2022-01-26
-C0247,58,Female,Bengaluru,Savings,18718.16,660,2023-05-23
-C0248,41,Male,Jaipur,Savings,33118.47,718,2019-11-01
-C0249,60,Female,Chandigarh,Current,61079.85,730,2020-03-09
-C0250,23,Male,Lucknow,Current,23596.11,662,2025-03-18
-C0251,29,Male,Bengaluru,Savings,16902.75,741,2021-04-23
-C0252,45,Male,Bengaluru,Savings,4356.44,754,2019-09-27
-C0253,30,Male,Lucknow,Savings,44926.93,774,2024-04-01
-C0254,37,Male,Jaipur,Savings,24574.52,806,2024-04-12
-C0255,54,Male,Lucknow,Savings,11966.34,634,2025-03-28
-C0256,28,Male,Mumbai,Current,29770.62,691,2024-08-28
-C0257,54,Female,Mumbai,Savings,16866.01,691,2026-09-10
-C0258,26,Male,Pune,Current,17628.27,684,2023-01-14
-C0259,29,Male,Pune,Savings,43696.92,648,2020-07-06
-C0260,50,Female,Pune,Current,9221.51,593,2025-07-24
-C0261,60,Female,Jaipur,Savings,62183.95,696,2020-04-27
-C0262,29,Male,Jaipur,Savings,8794.23,640,2020-07-20
-C0263,35,Female,Ludhiana,Savings,15832.8,696,2025-04-05
-C0264,67,Female,Pune,Current,125286.32,638,2025-09-22
-C0265,70,Female,Pune,Savings,66295.93,619,2020-12-21
-C0266,50,Female,Bengaluru,Current,29088.06,705,2024-05-23
-C0267,43,Female,Pune,Savings,12677.4,700,2026-01-30
-C0268,38,Male,Jaipur,Current,17616.34,728,2024-12-30
-C0269,51,Female,Ludhiana,Savings,28527.4,832,2018-01-16
-C0270,50,Male,Delhi,Savings,27723.03,708,2023-10-28
-C0271,35,Male,Mumbai,Current,25016.81,722,2019-06-28
-C0272,22,Female,Jaipur,Savings,26247.71,620,2025-06-01
-C0273,28,Female,Mumbai,Savings,22663.25,606,2018-08-03
-C0274,68,Male,Jaipur,Savings,8488.07,793,2026-09-13
-C0275,41,Female,Chandigarh,Savings,17797.11,630,2019-07-22
-C0276,45,Female,Delhi,Savings,55921.22,622,2021-09-06
-C0277,44,Male,Mumbai,Savings,9003.17,687,2020-01-20
-C0278,60,Other,Delhi,Savings,23117.74,684,2025-02-17
-C0279,24,Male,Mumbai,Current,13963.43,631,2021-06-13
-C0280,25,Female,Lucknow,Savings,29409.72,670,2024-07-10
-C0281,34,Male,Ludhiana,Savings,19714.18,770,2018-08-04
-C0282,45,Male,Mumbai,Savings,87720.85,638,2021-12-20
-C0283,54,Female,Ludhiana,Savings,40346.77,599,2025-12-25
-C0284,45,Male,Bengaluru,Savings,9419.69,751,2026-02-14
-C0285,43,Female,Lucknow,Current,46026.95,722,2019-10-30
-C0286,67,Female,Delhi,Current,14476.45,650,2021-06-16
-C0287,29,Male,Delhi,Savings,16956.44,587,2021-08-02
-C0288,49,Female,Ludhiana,Savings,34580.85,642,2022-12-15
-C0289,48,Female,Jaipur,Savings,18153.2,686,2022-09-16
-C0290,44,Male,Chandigarh,Savings,54955.81,766,2018-12-06
-C0291,61,Other,Pune,Savings,14478.09,623,2024-09-06
-C0292,34,Male,Bengaluru,Savings,16396.82,685,2019-12-24
-C0293,68,Male,Mumbai,Savings,15913.18,734,2020-10-04
-C0294,37,Other,Mumbai,Savings,17111.21,535,2025-05-14
-C0295,48,Female,Jaipur,Savings,64818.95,757,2024-01-16
-C0296,47,Female,Delhi,Savings,44490.77,613,2021-06-22
-C0297,63,Female,Bengaluru,Savings,105657.2,712,2025-12-29
-C0298,42,Female,Delhi,Savings,165068.42,706,2021-06-15
-C0299,35,Male,Jaipur,Savings,11794.95,760,2022-12-15
-C0300,22,Female,Pune,Savings,28462.29,726,2020-02-27
-C0301,39,Male,Ludhiana,Savings,10499.05,535,2019-08-10
-C0302,62,Female,Jaipur,Savings,14442.28,639,2022-04-23
-C0303,21,Female,Jaipur,Savings,16251.39,699,2022-12-07
-C0304,65,Male,Mumbai,Savings,11548.1,677,2025-01-22
-C0305,48,Female,Delhi,Current,11596.87,721,2021-06-04
-C0306,28,Female,Ludhiana,Current,23970.34,741,2025-11-04
-C0307,36,Female,Ludhiana,Savings,10164.18,730,2023-04-28
-C0308,48,Male,Jaipur,Savings,52770.18,676,2018-08-13
-C0309,36,Male,Ludhiana,Savings,12910.51,570,2024-06-23
-C0310,26,Male,Bengaluru,Current,254652.51,660,2023-01-14
-C0311,54,Female,Delhi,Savings,18748.94,717,2021-05-30
-C0312,54,Female,Lucknow,Current,28498.71,619,2022-02-04
-C0313,26,Male,Lucknow,Savings,9544.56,731,2020-08-23
-C0314,35,Male,Jaipur,Savings,105332.09,749,2023-05-20
-C0315,33,Male,Bengaluru,Savings,65880.68,698,2022-12-20
-C0316,53,Male,Ludhiana,Savings,34116.37,491,2021-12-02
-C0317,57,Male,Delhi,Savings,9159.6,607,2020-07-01
-C0318,57,Female,Mumbai,Savings,31841.75,813,2021-06-29
-C0319,67,Female,Delhi,Savings,10969.29,654,2022-05-13
-C0320,59,Male,Mumbai,Current,86671.83,561,2022-02-19
-C0321,37,Female,Mumbai,Savings,51398.06,770,2020-09-16
-C0322,26,Male,Chandigarh,Savings,29037.73,691,2023-02-06
-C0323,51,Male,Mumbai,Savings,3831.07,762,2019-12-26
-C0324,66,Male,Bengaluru,Current,12249.83,708,2022-05-23
-C0325,69,Male,Chandigarh,Savings,46639.77,720,2019-01-24
-C0326,32,Male,Bengaluru,Current,70990.9,714,2022-02-19
-C0327,32,Male,Ludhiana,Savings,65338.44,735,2024-11-13
-C0328,22,Male,Bengaluru,Savings,7528.04,838,2025-03-02
-C0329,28,Male,Pune,Savings,34243.15,753,2024-02-02
-C0330,48,Female,Bengaluru,Savings,60621.94,587,2024-07-14
-C0331,48,Male,Mumbai,Savings,7139.03,719,2018-07-31
-C0332,39,Male,Bengaluru,Savings,26733.6,764,2020-12-28
-C0333,36,Female,Pune,Savings,33492.4,768,2023-09-25
-C0334,62,Female,Ludhiana,Current,21149.86,662,2025-01-05
-C0335,44,Male,Jaipur,Current,6113.6,766,2023-02-09
-C0336,61,Male,Delhi,Current,20732.16,750,2025-06-24
-C0337,69,Female,Bengaluru,Savings,20705.52,850,2020-05-23
-C0338,36,Female,Mumbai,Savings,23897.81,641,2019-05-07
-C0339,31,Female,Delhi,Current,17140.9,657,2018-10-04
-C0340,68,Female,Pune,Savings,18874.94,670,2023-02-08
-C0341,52,Male,Jaipur,Savings,26062.04,658,2023-10-30
-C0342,35,Female,Ludhiana,Current,38329.06,632,2020-07-01
-C0343,52,Female,Chandigarh,Savings,21087.98,510,2024-11-12
-C0344,46,Male,Chandigarh,Savings,19385.5,662,2024-06-23
-C0345,66,Female,Lucknow,Current,28966.15,714,2021-02-26
-C0346,33,Female,Pune,Savings,5786.41,658,2020-02-04
-C0347,70,Male,Jaipur,Savings,39404.22,816,2024-07-03
-C0348,67,Male,Pune,Savings,26891.07,691,2023-11-19
-C0349,30,Other,Pune,Savings,27771.2,774,2019-07-01
-C0350,29,Male,Delhi,Savings,58022.58,707,2020-03-27
-C0351,47,Male,Ludhiana,Current,5640.61,744,2022-04-05
-C0352,23,Male,Mumbai,Current,5546.56,708,2022-06-24
-C0353,35,Male,Jaipur,Savings,33491.37,779,2019-06-16
-C0354,42,Male,Delhi,Savings,26750.45,694,2026-04-24
-C0355,69,Male,Ludhiana,Current,30826.86,722,2021-05-28
-C0356,70,Male,Chandigarh,Savings,18588.5,714,2021-05-05
-C0357,28,Male,Mumbai,Savings,45774.52,671,2018-07-13
-C0358,65,Female,Pune,Savings,56732.99,716,2025-09-03
-C0359,25,Male,Pune,Savings,39623.82,835,2020-01-23
-C0360,58,Female,Lucknow,Savings,21836.48,672,2026-08-25
-C0361,63,Male,Lucknow,Savings,4983.3,717,2022-05-07
-C0362,65,Male,Mumbai,Savings,49781.02,772,2025-08-31
-C0363,32,Male,Chandigarh,Savings,71495.01,764,2019-07-28
-C0364,65,Other,Mumbai,Savings,45055.34,691,2019-06-15
-C0365,26,Female,Chandigarh,Savings,13310.2,535,2025-01-07
-C0366,46,Male,Jaipur,Savings,46121.55,724,2025-03-07
-C0367,44,Male,Ludhiana,Savings,53552.82,546,2022-10-04
-C0368,36,Female,Chandigarh,Savings,93625.03,786,2018-04-13
-C0369,22,Female,Ludhiana,Savings,13347.87,701,2026-04-08
-C0370,59,Female,Chandigarh,Savings,22445.3,755,2021-06-12
-C0371,37,Male,Ludhiana,Savings,48913.94,631,2026-03-15
-C0372,54,Male,Delhi,Current,28167.61,589,2025-08-18
-C0373,41,Other,Pune,Savings,11005.36,707,2025-06-17
-C0374,39,Male,Bengaluru,Current,37484.88,688,2024-01-14
-C0375,65,Male,Jaipur,Current,42741.66,658,2023-11-25
-C0376,25,Female,Ludhiana,Savings,28864.57,696,2022-09-01
-C0377,57,Male,Delhi,Savings,32069.73,850,2018-03-21
-C0378,58,Female,Bengaluru,Current,21873.59,744,2021-05-26
-C0379,39,Male,Lucknow,Savings,87783.0,758,2024-05-26
-C0380,34,Male,Ludhiana,Savings,13087.94,745,2025-02-12
-C0381,21,Male,Jaipur,Savings,16816.96,786,2022-11-26
-C0382,67,Male,Mumbai,Savings,27140.66,678,2024-03-20
-C0383,68,Female,Delhi,Savings,54348.01,556,2018-03-11
-C0384,33,Female,Chandigarh,Current,8120.13,678,2022-02-07
-C0385,22,Female,Pune,Current,9431.05,743,2022-06-13
-C0386,27,Female,Delhi,Savings,5270.17,627,2025-10-26
-C0387,24,Male,Lucknow,Savings,27616.15,679,2020-09-22
-C0388,62,Male,Jaipur,Savings,10996.75,645,2020-01-06
-C0389,65,Male,Ludhiana,Current,19778.68,788,2021-02-01
-C0390,28,Male,Jaipur,Savings,45665.69,739,2019-06-30
-C0391,58,Male,Delhi,Current,16103.08,732,2022-11-22
-C0392,29,Male,Delhi,Current,32371.24,730,2023-08-19
-C0393,39,Female,Bengaluru,Savings,21174.01,688,2025-01-07
-C0394,50,Female,Lucknow,Savings,46059.6,703,2026-07-08
-C0395,56,Male,Delhi,Current,39344.15,613,2018-08-24
-C0396,64,Male,Chandigarh,Savings,15466.83,548,2020-03-02
-C0397,23,Female,Pune,Savings,23507.59,700,2020-08-20
-C0398,30,Male,Chandigarh,Current,62006.51,711,2020-03-09
-C0399,35,Male,Lucknow,Savings,36853.34,769,2025-04-01
-C0400,36,Female,Mumbai,Savings,8799.33,792,2019-03-23
-C0401,70,Female,Pune,Savings,45455.74,792,2018-04-06
-C0402,59,Male,Pune,Savings,11297.21,625,2025-07-16
-C0403,37,Male,Lucknow,Current,83283.89,667,2026-06-04
-C0404,69,Female,Delhi,Savings,61039.66,721,2019-12-26
-C0405,45,Male,Mumbai,Savings,33925.03,850,2020-12-01
-C0406,46,Female,Delhi,Savings,30509.28,786,2022-05-30
-C0407,42,Male,Mumbai,Current,22760.33,763,2022-08-11
-C0408,28,Female,Delhi,Savings,46296.39,665,2026-09-06
-C0409,67,Male,Ludhiana,Current,19997.8,633,2021-07-17
-C0410,21,Female,Bengaluru,Savings,32482.47,741,2018-02-08
-C0411,29,Female,Ludhiana,Current,54043.66,618,2021-09-14
-C0412,32,Male,Bengaluru,Current,17163.75,675,2022-11-16
-C0413,34,Female,Ludhiana,Current,16432.98,683,2022-07-13
-C0414,27,Female,Chandigarh,Current,10347.58,794,2022-06-28
-C0415,21,Female,Mumbai,Savings,11480.69,667,2026-01-31
-C0416,54,Male,Pune,Current,6230.95,531,2025-01-27
-C0417,69,Male,Mumbai,Savings,48236.1,723,2020-03-16
-C0418,27,Other,Jaipur,Savings,114362.86,645,2021-02-10
-C0419,35,Female,Jaipur,Current,84142.17,693,2023-11-07
-C0420,46,Female,Pune,Current,7325.62,684,2021-08-06
-C0421,67,Female,Jaipur,Savings,48044.54,672,2021-10-02
-C0422,55,Male,Pune,Savings,83925.53,741,2019-06-22
-C0423,59,Other,Chandigarh,Savings,18667.74,590,2020-03-24
-C0424,50,Male,Jaipur,Savings,29177.64,656,2024-06-28
-C0425,41,Male,Mumbai,Savings,5397.47,734,2025-05-21
-C0426,30,Female,Delhi,Savings,33302.54,650,2024-11-16
-C0427,64,Male,Mumbai,Savings,11489.08,585,2020-09-12
-C0428,61,Male,Delhi,Savings,31561.96,733,2019-03-14
-C0429,22,Female,Delhi,Savings,7715.89,763,2019-05-27
-C0430,56,Female,Bengaluru,Savings,41534.79,687,2021-06-13
-C0431,25,Female,Ludhiana,Current,61059.87,563,2022-07-15
-C0432,57,Female,Jaipur,Savings,14378.02,736,2025-10-28
-C0433,62,Female,Chandigarh,Savings,10834.19,582,2025-11-16
-C0434,27,Female,Bengaluru,Savings,4794.29,710,2018-01-09
-C0435,42,Male,Delhi,Savings,21739.13,632,2024-03-14
-C0436,27,Female,Delhi,Current,16894.19,615,2020-08-14
-C0437,49,Female,Mumbai,Savings,7779.01,661,2019-09-25
-C0438,67,Male,Pune,Savings,38654.37,678,2022-11-12
-C0439,25,Male,Bengaluru,Current,18770.16,648,2018-04-19
-C0440,40,Male,Delhi,Current,11377.71,728,2020-12-05
-C0441,69,Female,Delhi,Savings,17263.37,661,2022-11-03
-C0442,36,Male,Mumbai,Savings,63388.87,754,2020-05-20
-C0443,27,Female,Chandigarh,Savings,43579.82,708,2023-03-14
-C0444,45,Female,Ludhiana,Savings,24245.33,645,2022-01-12
-C0445,46,Male,Jaipur,Savings,44147.17,634,2025-01-02
-C0446,54,Male,Ludhiana,Savings,10628.25,583,2019-08-04
-C0447,36,Male,Delhi,Current,27608.97,709,2018-07-02
-C0448,68,Male,Bengaluru,Savings,30268.35,667,2022-08-22
-C0449,47,Male,Ludhiana,Savings,18474.21,536,2020-04-02
-C0450,35,Female,Mumbai,Savings,38115.13,655,2024-03-11
-C0451,69,Female,Bengaluru,Current,14409.65,631,2018-10-26
-C0452,67,Female,Pune,Savings,40451.4,792,2023-01-15
-C0453,45,Female,Ludhiana,Current,41834.93,579,2026-09-03
-C0454,22,Male,Jaipur,Current,2607.83,596,2018-10-25
-C0455,50,Female,Bengaluru,Savings,69720.14,762,2020-08-23
-C0456,48,Male,Jaipur,Savings,2349.35,778,2025-05-26
-C0457,28,Male,Pune,Savings,16434.87,642,2022-09-04
-C0458,52,Male,Pune,Savings,61100.69,649,2019-07-14
-C0459,63,Female,Lucknow,Current,20872.14,730,2019-11-14
-C0460,26,Male,Delhi,Savings,8325.27,539,2024-09-13
-C0461,57,Other,Chandigarh,Savings,11215.03,569,2025-07-17
-C0462,28,Male,Bengaluru,Savings,61176.88,672,2021-02-27
-C0463,58,Male,Delhi,Savings,5783.69,791,2022-02-25
-C0464,41,Male,Chandigarh,Savings,66382.77,662,2024-11-09
-C0465,21,Male,Chandigarh,Savings,25743.01,697,2019-07-21
-C0466,69,Female,Lucknow,Savings,10363.9,764,2019-10-23
-C0467,29,Male,Mumbai,Savings,16873.64,827,2024-10-14
-C0468,50,Female,Jaipur,Savings,11922.95,653,2019-08-21
-C0469,30,Male,Chandigarh,Savings,53797.39,689,2024-10-02
-C0470,67,Male,Delhi,Savings,48336.5,808,2022-05-10
-C0471,57,Male,Chandigarh,Current,6799.95,591,2026-09-04
-C0472,61,Female,Bengaluru,Savings,19479.66,757,2018-04-16
-C0473,42,Female,Lucknow,Savings,13486.59,624,2026-04-16
-C0474,44,Male,Mumbai,Savings,75720.79,697,2019-12-22
-C0475,52,Female,Pune,Savings,9135.48,674,2018-04-23
-C0476,60,Female,Ludhiana,Savings,97088.99,628,2024-05-05
-C0477,63,Female,Bengaluru,Savings,26196.06,626,2022-09-01
-C0478,21,Female,Mumbai,Current,10619.56,708,2025-05-03
-C0479,54,Female,Ludhiana,Savings,15649.29,755,2018-12-13
-C0480,26,Male,Chandigarh,Savings,14167.49,682,2018-09-16
-C0481,35,Female,Lucknow,Savings,9704.11,695,2022-12-21
-C0482,62,Female,Pune,Savings,29023.51,727,2025-09-23
-C0483,33,Female,Ludhiana,Savings,10073.54,627,2021-07-22
-C0484,60,Female,Chandigarh,Savings,4701.83,738,2024-12-27
-C0485,44,Female,Lucknow,Savings,19855.95,743,2025-12-09
-C0486,32,Male,Chandigarh,Savings,6359.56,850,2025-08-14
-C0487,37,Female,Chandigarh,Current,14739.28,666,2022-06-16
-C0488,47,Female,Delhi,Savings,13000.17,660,2024-02-13
-C0489,59,Female,Delhi,Current,13400.23,740,2022-08-10
-C0490,51,Female,Bengaluru,Savings,133355.06,743,2023-11-28
-C0491,67,Female,Pune,Savings,28145.12,655,2022-12-20
-C0492,64,Female,Jaipur,Current,32738.17,664,2022-08-08
-C0493,58,Male,Mumbai,Savings,6495.61,725,2021-10-29
-C0494,51,Female,Lucknow,Current,15943.87,636,2023-09-20
-C0495,35,Male,Chandigarh,Savings,31960.05,663,2024-07-31
-C0496,41,Male,Ludhiana,Savings,11853.48,696,2026-01-20
-C0497,26,Female,Pune,Current,55628.46,755,2023-05-17
-C0498,39,Female,Bengaluru,Savings,10278.84,651,2018-11-18
-C0499,67,Male,Mumbai,Savings,21394.88,570,2023-02-23
-C0500,42,Male,Mumbai,Savings,16834.05,565,2020-10-07
+customer_id,customer_name,age,gender,city,account_type,account_balance,credit_score,join_date
+CUST-77091,Demo Ashley Compton,24,Prefer not to say,City B,Savings,149045.69,663,2021-05-26
+CUST-45341,Demo Joanne White,33,Male,City E,Savings,145510.14,634,2021-03-13
+CUST-65382,Demo Joseph Santos,47,Male,City B,Savings,197252.97,798,2024-11-10
+CUST-89665,Demo Denise Wood,59,Non-binary,City D,Current,122383.36,747,2022-09-29
+CUST-53719,Demo Rachel Gray,62,Prefer not to say,City F,Current,123462.14,695,2023-04-09
+CUST-31596,Demo Sharon Hinton,40,Male,City G,Savings,57354.43,504,2021-03-01
+CUST-48540,Demo Eduardo Edwards PhD,57,Non-binary,City C,Savings,286724.45,768,2024-02-26
+CUST-64027,Demo Wendy Jackson,26,Non-binary,City H,Savings,15646.77,733,2021-02-23
+CUST-52223,Demo Travis Wilson,33,Male,City A,Current,191359.87,574,2021-07-18
+CUST-95795,Demo Angela Barnett,66,Male,City G,Savings,276354.1,783,2024-03-09
+CUST-69976,Demo Benjamin Decker,32,Non-binary,City B,Savings,186542.05,780,2024-11-14
+CUST-16807,Demo Monica Lara,71,Female,City H,Savings,197507.67,596,2024-08-05
+CUST-29908,Demo Thomas Lozano,36,Male,City E,Savings,222478.88,585,2021-08-19
+CUST-38816,Demo Marcus Gray,55,Non-binary,City C,Current,149137.86,640,2025-05-20
+CUST-49717,Demo Elizabeth Salazar,68,Prefer not to say,City E,Current,35354.14,547,2025-06-27
+CUST-69569,Demo Daniel Estes,75,Prefer not to say,City E,Current,172603.82,629,2024-11-18
+CUST-14442,Demo Jeremy Arnold,46,Non-binary,City H,Savings,166730.99,690,2022-01-28
+CUST-54899,Demo John Mendoza,70,Non-binary,City H,Current,216733.07,782,2022-10-08
+CUST-23538,Demo Natasha Parks,51,Prefer not to say,City G,Savings,28366.0,762,2024-09-26
+CUST-98364,Demo Victoria Brown,55,Non-binary,City D,Current,299245.75,548,2022-06-04
+CUST-07275,Demo Patrick Clark,55,Prefer not to say,City C,Current,185777.17,836,2022-02-09
+CUST-68641,Demo Alexander Parker,31,Prefer not to say,City C,Current,197214.56,786,2024-06-07
+CUST-06990,Demo William Smith,42,Prefer not to say,City D,Savings,254254.93,621,2022-04-07
+CUST-85262,Demo Ryan Kennedy,57,Male,City B,Current,195277.34,759,2023-12-31
+CUST-73112,Demo Tony Berg,43,Non-binary,City C,Current,81722.71,539,2022-04-05
+CUST-49000,Demo Ronald Hayden,33,Male,City G,Savings,157783.85,570,2023-11-27
+CUST-97080,Demo Sarah Garcia,37,Prefer not to say,City F,Savings,247331.81,710,2025-03-27
+CUST-24283,Demo Kathleen Pham,74,Male,City H,Current,87842.94,681,2025-05-14
+CUST-82177,Demo Dominic Snyder,45,Male,City H,Current,124314.97,638,2022-01-28
+CUST-45400,Demo Anthony Riley,44,Prefer not to say,City D,Savings,260470.37,674,2024-05-24
+CUST-58840,Demo Sherri Campbell,26,Male,City A,Current,68880.37,577,2022-10-27
+CUST-87541,Demo Brittany Acevedo,54,Non-binary,City E,Savings,88257.59,663,2024-04-21
+CUST-41567,Demo Diana Hardy,48,Female,City A,Savings,30852.88,598,2021-07-07
+CUST-21517,Demo Larry Duncan,51,Prefer not to say,City C,Current,85837.58,603,2023-04-30
+CUST-98390,Demo Maria Williams,52,Non-binary,City E,Current,143038.29,816,2025-06-21
+CUST-04807,Demo Kimberly Lynch,23,Non-binary,City E,Current,54661.84,534,2024-01-29
+CUST-28861,Demo Donna Graham,22,Female,City C,Savings,25703.49,581,2021-02-03
+CUST-37274,Demo Kimberly Swanson,36,Male,City G,Current,72865.22,554,2024-03-12
+CUST-83824,Demo Danielle Griffin,68,Female,City G,Savings,130079.25,817,2025-02-04
+CUST-67438,Demo David Jacobs,62,Prefer not to say,City D,Savings,294950.52,820,2021-07-04
+CUST-59293,Demo Rodney Strong,41,Non-binary,City H,Savings,198616.19,502,2023-06-05
+CUST-44238,Demo Michael Huerta,59,Female,City B,Current,272612.53,591,2022-12-31
+CUST-47625,Demo Harold Wade,35,Female,City A,Savings,40310.78,600,2021-06-28
+CUST-93633,Demo Eric Stewart,51,Non-binary,City B,Current,247456.76,629,2023-04-16
+CUST-05575,Demo Emily Scott,57,Non-binary,City B,Current,70612.21,536,2021-10-14
+CUST-26201,Demo Heather Yang,70,Prefer not to say,City D,Current,259244.12,773,2021-08-29
+CUST-60072,Demo James Perez,64,Prefer not to say,City B,Current,259851.78,749,2022-01-09
+CUST-91714,Demo Katherine Barber,51,Prefer not to say,City F,Savings,223342.55,843,2025-05-15
+CUST-76622,Demo Shelby Zuniga,41,Non-binary,City H,Current,233811.7,727,2024-12-17
+CUST-11287,Demo Eileen Jimenez,46,Male,City G,Current,255617.55,626,2025-05-07
+CUST-30971,Demo Stephen Carpenter,48,Female,City E,Current,299449.54,726,2023-05-01
+CUST-59879,Demo Paul Tran,39,Non-binary,City D,Savings,59501.92,830,2023-03-04
+CUST-92679,Demo Christopher Robbins,49,Non-binary,City A,Current,113312.61,795,2023-02-10
+CUST-86795,Demo Robin Garcia,57,Female,City A,Savings,222016.24,636,2024-09-23
+CUST-70133,Demo Robert Peterson,45,Non-binary,City B,Current,133532.11,573,2021-01-17
+CUST-47191,Demo Jose Le,64,Non-binary,City F,Savings,266514.7,520,2021-04-06
+CUST-20407,Demo Danielle Harrison,59,Non-binary,City H,Savings,35778.17,817,2025-09-20
+CUST-52384,Demo Kyle Martin,21,Female,City B,Current,255413.4,519,2022-04-28
+CUST-64634,Demo Cody Clark,62,Female,City B,Current,134957.99,839,2023-05-27
+CUST-05691,Demo Angie Barron,23,Prefer not to say,City C,Current,120618.32,706,2023-04-15
+CUST-50148,Demo April Schwartz,72,Male,City A,Current,75667.03,508,2024-03-14
+CUST-87759,Demo Luis Rodriguez,38,Prefer not to say,City D,Savings,249244.33,525,2021-01-17
+CUST-16020,Demo Bradley Sanchez,75,Prefer not to say,City G,Savings,31075.57,774,2021-03-27
+CUST-83347,Demo Rebecca Blair,71,Prefer not to say,City E,Savings,15483.68,555,2023-12-07
+CUST-21911,Demo Randy Wilkinson,49,Non-binary,City F,Savings,29386.81,821,2021-11-05
+CUST-17888,Demo Lori West,50,Non-binary,City A,Savings,47244.89,566,2021-03-03
+CUST-08954,Demo Timothy Garcia,75,Male,City D,Savings,148761.54,545,2022-05-28
+CUST-85572,Demo Dawn Harper,67,Non-binary,City H,Savings,144107.75,519,2025-04-14
+CUST-78956,Demo David Carson,55,Female,City A,Current,36787.33,566,2022-04-11
+CUST-27902,Demo Eric Howard,36,Prefer not to say,City E,Current,114841.43,739,2023-09-17
+CUST-61800,Demo Mr. Sean Richmond,30,Non-binary,City G,Savings,106789.74,706,2025-12-03
+CUST-98987,Demo Lindsey Le,67,Non-binary,City G,Current,47670.25,793,2023-10-30
+CUST-02585,Demo Shelley Lee,68,Prefer not to say,City A,Current,274250.41,676,2025-11-30
+CUST-65754,Demo Chelsea Garrett,38,Non-binary,City C,Savings,215801.46,759,2021-02-15
+CUST-74118,Demo Eddie Cervantes,65,Non-binary,City D,Current,160413.62,768,2023-11-20
+CUST-18788,Demo Mandy Daugherty,72,Female,City F,Savings,258974.61,681,2021-12-27
+CUST-55330,Demo Alyssa Maxwell,72,Prefer not to say,City F,Savings,265495.05,688,2022-09-19
+CUST-47377,Demo Destiny Wang,47,Non-binary,City C,Current,90986.59,611,2023-10-02
+CUST-61730,Demo Jeffrey Reid,53,Female,City G,Savings,65395.75,513,2021-09-18
+CUST-04714,Demo Catherine Bradley MD,51,Non-binary,City E,Current,155732.45,621,2025-08-01
+CUST-58917,Demo Angelica Caldwell,43,Female,City C,Current,233859.95,774,2023-02-01
+CUST-32437,Demo Valerie Olson,66,Female,City E,Current,202498.63,648,2024-10-20
+CUST-88695,Demo Brian Williams,47,Female,City F,Savings,142247.33,526,2022-10-16
+CUST-07547,Demo Grant Mcintyre,41,Female,City H,Current,58869.34,806,2022-08-14
+CUST-91264,Demo Cheryl Ortiz,58,Female,City A,Savings,58645.55,708,2024-08-03
+CUST-20722,Demo Lawrence Golden,28,Male,City F,Current,107813.25,695,2023-12-08
+CUST-97048,Demo Christine Martinez,45,Female,City D,Current,257171.49,641,2021-11-15
+CUST-32658,Demo Jenny Ford,33,Female,City E,Current,56418.16,554,2023-09-30
+CUST-16189,Demo Edward Bradley,72,Male,City H,Current,31873.76,732,2025-05-05
+CUST-89885,Demo Sarah Bell,48,Prefer not to say,City G,Savings,225409.44,807,2023-03-02
+CUST-10896,Demo Monique Mccarty,42,Prefer not to say,City H,Current,209971.03,540,2025-04-15
+CUST-69880,Demo Gabriella Murphy,36,Male,City H,Savings,183529.08,714,2023-06-18
+CUST-03344,Demo Destiny Short,26,Prefer not to say,City D,Current,182479.04,537,2023-02-10
+CUST-04757,Demo Craig Aguilar,37,Non-binary,City C,Savings,177640.61,610,2021-01-27
+CUST-34803,Demo Martin White,66,Male,City A,Current,140840.31,584,2022-09-28
+CUST-96419,Demo Timothy Williams,32,Prefer not to say,City E,Savings,25666.46,715,2022-10-02
+CUST-39263,Demo Mariah Logan,24,Female,City C,Savings,57453.84,810,2022-02-23
+CUST-40746,Demo Gabrielle Santos,51,Male,City D,Savings,170507.78,708,2021-06-16
+CUST-12945,Demo James Hensley,59,Male,City A,Current,108408.1,502,2024-08-25
+CUST-48851,Demo Guy Tapia,26,Female,City G,Savings,50658.92,836,2024-07-14
+CUST-02399,Demo Sean Allen,54,Prefer not to say,City A,Savings,230502.46,587,2023-11-09
+CUST-00230,Demo James Washington,64,Male,City A,Savings,177561.28,755,2025-01-20
+CUST-70949,Demo Molly Levine,54,Non-binary,City G,Current,282219.19,559,2022-05-26
+CUST-80438,Demo Sabrina Arellano,59,Male,City E,Current,143555.0,626,2024-12-11
+CUST-28454,Demo Charles Sanders,45,Male,City B,Current,140527.84,702,2022-09-23
+CUST-43821,Demo Charles Weiss,35,Non-binary,City B,Savings,218752.57,507,2025-01-08
+CUST-75847,Demo Patrick Ferguson,27,Prefer not to say,City B,Current,158012.37,544,2023-05-11
+CUST-37573,Demo Taylor Stewart,53,Female,City D,Savings,256164.26,686,2023-07-27
+CUST-93574,Demo Danielle Baker,56,Female,City B,Savings,242657.53,732,2023-02-13
+CUST-60360,Demo Andrew Pineda,57,Prefer not to say,City C,Current,10440.27,644,2022-09-27
+CUST-45380,Demo Patrick Williams,69,Prefer not to say,City C,Savings,241846.76,666,2021-06-09
+CUST-51993,Demo Amy Moore,42,Prefer not to say,City B,Current,65666.11,753,2022-12-16
+CUST-34043,Demo William Edwards,27,Non-binary,City E,Current,220924.66,639,2021-10-01
+CUST-00301,Demo Jean Rose,53,Male,City H,Savings,253275.19,707,2023-05-11
+CUST-81798,Demo Pedro Peterson,43,Male,City D,Savings,6866.28,821,2021-02-02
+CUST-96275,Demo Matthew Rodriguez,70,Male,City G,Savings,177343.48,675,2025-05-27
+CUST-83615,Demo Courtney Cook,60,Female,City F,Current,144551.59,712,2023-09-16
+CUST-58738,Demo Elizabeth Johnson,36,Non-binary,City D,Savings,47177.83,776,2024-05-29
+CUST-59943,Demo Courtney Martin,69,Female,City B,Current,5750.03,532,2021-05-19
+CUST-67955,Demo Karen Meyers,50,Male,City C,Current,171755.96,765,2024-07-16
+CUST-79844,Demo Vicki Taylor DVM,36,Prefer not to say,City E,Current,273947.53,602,2025-02-21
+CUST-52882,Demo Sarah Hernandez,50,Female,City B,Current,171318.05,841,2024-09-19
+CUST-85730,Demo Frank Horton,23,Prefer not to say,City H,Current,250164.45,522,2021-05-10
+CUST-05809,Demo Lindsey Perez,47,Female,City C,Current,49764.91,642,2021-12-08
+CUST-70944,Demo Cody Adams,22,Male,City H,Current,117675.87,802,2021-12-31
+CUST-28370,Demo Dawn Martinez,54,Female,City E,Savings,254419.63,595,2021-06-24
+CUST-89189,Demo Carol Nelson,54,Female,City A,Savings,279892.76,512,2022-01-26
+CUST-05940,Demo Shawn Mays,56,Male,City G,Savings,8203.27,779,2021-03-22
+CUST-49169,Demo Angela Ortiz,56,Non-binary,City H,Savings,211215.09,508,2024-07-19
+CUST-88891,Demo Jeremy Tanner,75,Prefer not to say,City E,Savings,263498.58,690,2023-01-15
+CUST-76340,Demo Edwin Caldwell,48,Male,City A,Current,265350.85,666,2022-03-27
+CUST-80534,Demo Steven Burns,50,Female,City G,Savings,180714.22,531,2021-08-17
+CUST-28601,Demo Robert Padilla,44,Male,City B,Savings,127059.3,623,2025-08-26
+CUST-00597,Demo Paul Howard,60,Prefer not to say,City H,Savings,157712.54,814,2023-03-27
+CUST-47846,Demo Jasmine Cole,56,Non-binary,City C,Current,12526.8,667,2023-11-09
+CUST-48682,Demo Destiny Rogers,73,Non-binary,City A,Current,248020.46,716,2024-09-10
+CUST-30746,Demo Jimmy Stevenson,43,Male,City B,Savings,14789.57,831,2023-10-23
+CUST-75082,Demo Sylvia Thomas,40,Non-binary,City F,Savings,186412.5,693,2024-02-07
+CUST-22193,Demo Jerome Gentry,48,Male,City E,Current,79809.17,837,2022-11-07
+CUST-09218,Demo Donald Smith,36,Female,City H,Current,78741.23,592,2021-08-25
+CUST-97600,Demo Angela Wells,75,Male,City E,Savings,107660.56,625,2024-07-15
+CUST-03081,Demo Stacey Alexander,55,Male,City A,Savings,53439.01,811,2022-01-14
+CUST-83123,Demo Eric Scott,47,Female,City A,Current,267833.8,641,2021-08-12
+CUST-01174,Demo Cynthia Juarez,34,Female,City A,Current,253522.04,538,2022-05-11
+CUST-13349,Demo Tony Stone,54,Prefer not to say,City C,Current,225460.92,606,2021-02-05
+CUST-28992,Demo Anna Raymond,45,Non-binary,City A,Savings,103183.68,548,2025-08-05
+CUST-63765,Demo Jason Dodson,30,Female,City C,Savings,285422.22,540,2022-03-09
+CUST-32181,Demo Victoria Chandler,72,Female,City H,Savings,129069.56,685,2023-01-17
+CUST-22871,Demo Elizabeth Huff,55,Non-binary,City H,Current,279634.4,780,2024-09-08
+CUST-58462,Demo Michael Dawson,29,Non-binary,City F,Current,79304.99,613,2023-07-10
+CUST-61935,Demo James Rosales,22,Non-binary,City C,Current,100577.62,802,2025-09-30
+CUST-34908,Demo John Larsen,40,Female,City F,Savings,51309.4,597,2021-08-16
+CUST-43594,Demo Jacob Cox,29,Female,City C,Savings,258923.22,800,2024-12-18
+CUST-98697,Demo Mallory Bowen,40,Female,City C,Current,294813.66,580,2024-08-28
+CUST-25827,Demo Janice Robinson,62,Male,City A,Current,193181.34,617,2025-12-05
+CUST-27665,Demo Andrew Hamilton,65,Prefer not to say,City F,Savings,292733.52,639,2025-02-21
+CUST-19701,Demo Jamie Barrera,62,Prefer not to say,City E,Current,202113.56,693,2024-12-11
+CUST-35761,Demo John Scott,34,Prefer not to say,City H,Savings,184359.33,819,2022-12-01
+CUST-39003,Demo Lindsey Marshall,35,Female,City E,Current,28822.64,577,2025-01-13
+CUST-01232,Demo Cheyenne Beard,46,Male,City B,Current,35304.01,817,2024-08-03
+CUST-79360,Demo James Jackson,28,Non-binary,City A,Savings,92150.6,779,2022-11-13
+CUST-11853,Demo Claire Gilbert,53,Non-binary,City B,Savings,16157.35,554,2023-10-31
+CUST-41275,Demo Eric Dean,49,Non-binary,City F,Current,10337.55,834,2023-09-14
+CUST-59543,Demo Amber Morrison,48,Non-binary,City G,Current,41650.64,581,2024-06-13
+CUST-25312,Demo John Jones,29,Male,City F,Savings,37624.46,797,2023-12-03
+CUST-61177,Demo Gabriella Clark,55,Prefer not to say,City G,Savings,54263.95,665,2022-07-25
+CUST-76137,Demo Holly Wolfe,63,Non-binary,City C,Current,38340.3,636,2021-05-30
+CUST-95248,Demo David Jones,68,Prefer not to say,City A,Savings,120937.56,549,2023-04-03
+CUST-58775,Demo Edward Mathews,44,Prefer not to say,City G,Current,184010.72,693,2025-04-06
+CUST-89749,Demo Evelyn Wilson,71,Female,City B,Savings,142345.1,585,2022-06-02
+CUST-25134,Demo Johnny Kaufman,30,Female,City H,Current,80821.0,660,2023-08-02
+CUST-89773,Demo Hannah Johnson,47,Non-binary,City D,Current,119006.79,764,2023-08-21
+CUST-40537,Demo Susan Zimmerman,49,Male,City E,Savings,223084.11,580,2021-03-04
+CUST-93333,Demo Scott Chang,74,Male,City A,Current,231637.43,606,2024-06-15
+CUST-10170,Demo Robin Harrison,45,Prefer not to say,City F,Savings,105484.77,806,2021-12-28
+CUST-47501,Demo Michael Davis,44,Non-binary,City H,Savings,109103.94,634,2024-06-06
+CUST-16939,Demo Joseph Russell,44,Male,City H,Savings,130618.46,562,2022-12-08
+CUST-12963,Demo Ashley Brown,71,Prefer not to say,City C,Savings,223672.75,734,2024-10-22
+CUST-96201,Demo Jacob Carroll,57,Male,City E,Savings,182391.05,620,2021-12-13
+CUST-11803,Demo Nicole Simmons,69,Male,City D,Savings,178387.13,824,2022-10-26
+CUST-73016,Demo Nicholas Jones,39,Non-binary,City H,Savings,289719.88,540,2024-11-21
+CUST-12638,Demo Katherine Johnson,61,Male,City E,Savings,89118.1,528,2023-01-24
+CUST-70746,Demo Ronald Allen,22,Prefer not to say,City E,Current,221926.64,842,2021-08-22
+CUST-99539,Demo Andrew Knight,66,Non-binary,City B,Current,118509.17,702,2021-12-16
+CUST-13672,Demo Shannon Hammond,53,Female,City E,Current,192184.61,820,2024-02-11
+CUST-84092,Demo Gregory Curry,75,Non-binary,City C,Savings,283693.98,830,2023-04-18
+CUST-70581,Demo Savannah Ramirez,75,Prefer not to say,City H,Savings,242758.86,798,2021-08-14
+CUST-28327,Demo Sharon Greer,26,Male,City F,Current,142477.82,518,2025-03-11
+CUST-37538,Demo Angela Martinez,50,Female,City B,Savings,252017.44,758,2022-04-29
+CUST-26768,Demo Leslie Nguyen,27,Female,City G,Current,11563.25,806,2021-12-08
+CUST-38072,Demo Peter Berry,54,Non-binary,City A,Savings,268894.79,630,2023-05-04
+CUST-50460,Demo Lauren Carlson,50,Male,City G,Savings,153764.73,589,2025-05-13
+CUST-49600,Demo Shane Fischer,56,Female,City A,Current,47601.72,669,2021-03-04
+CUST-48551,Demo Raymond Holmes,49,Female,City A,Current,76299.98,555,2024-11-08
+CUST-79532,Demo Jack Lynch,28,Non-binary,City H,Current,9896.09,739,2021-08-10
+CUST-43315,Demo Kimberly Moore,69,Non-binary,City B,Savings,291188.56,611,2022-08-10
+CUST-39162,Demo Steven Griffith,49,Female,City G,Savings,252409.97,726,2022-04-24
+CUST-30993,Demo Michelle Trevino,63,Male,City F,Current,236153.57,540,2021-11-25
+CUST-86533,Demo Leslie Garza,63,Female,City E,Savings,204648.82,600,2022-09-14
+CUST-88583,Demo Melissa Marshall,62,Prefer not to say,City E,Current,24107.28,523,2025-12-09
+CUST-78060,Demo Haley Davis,63,Male,City A,Savings,175319.38,544,2023-03-25
+CUST-95466,Demo Amy Soto,32,Prefer not to say,City D,Savings,206627.43,598,2021-11-08
+CUST-22163,Demo Sally Black,42,Prefer not to say,City G,Savings,76804.24,518,2021-08-24
+CUST-05826,Demo Jessica Walters,48,Non-binary,City C,Savings,49207.29,762,2022-04-24
+CUST-69321,Demo Sabrina Arnold,52,Male,City H,Savings,148463.82,586,2022-11-25
+CUST-90397,Demo Brian Singleton,45,Prefer not to say,City D,Current,172865.39,623,2023-12-16
+CUST-33144,Demo Denise Nichols,36,Male,City A,Savings,271691.51,777,2024-05-23
+CUST-54912,Demo Patrick Miller,62,Non-binary,City A,Savings,56355.62,585,2023-04-13
+CUST-56135,Demo Cindy Meyer,21,Non-binary,City C,Current,214965.73,631,2023-10-05
+CUST-90438,Demo Steve Miller,28,Female,City F,Savings,64097.48,712,2021-06-17
+CUST-67378,Demo Samuel Smith,53,Prefer not to say,City B,Current,86606.81,797,2023-01-17
+CUST-70485,Demo James Rosales,58,Female,City G,Current,187273.8,782,2021-08-12
+CUST-75418,Demo Martha Carlson,37,Non-binary,City G,Current,62279.64,844,2025-12-24
+CUST-72695,Demo Andrea Lee,74,Female,City G,Current,293312.23,694,2024-08-10
+CUST-79367,Demo Cameron Morrow,74,Prefer not to say,City C,Current,228514.15,784,2024-11-16
+CUST-49894,Demo Jacob Freeman,55,Non-binary,City D,Savings,137267.68,580,2021-07-15
+CUST-98803,Demo Kelly Hoffman,72,Non-binary,City A,Current,257720.2,769,2023-12-06
+CUST-48595,Demo Yvette Smith,22,Male,City G,Savings,221611.71,786,2024-03-21
+CUST-34296,Demo Adam Miller,73,Female,City G,Savings,20140.73,666,2021-10-02
+CUST-39270,Demo Shannon Turner,46,Prefer not to say,City G,Current,17785.23,613,2021-06-24
+CUST-52265,Demo Debra Campos,57,Male,City D,Savings,18426.8,588,2024-12-24
+CUST-24857,Demo Diana Dorsey,61,Male,City C,Savings,59192.68,708,2024-02-09
+CUST-92374,Demo Debra Woods,32,Male,City F,Savings,83934.8,568,2025-07-19
+CUST-38109,Demo Benjamin Camacho MD,49,Prefer not to say,City F,Current,188444.37,643,2021-06-12
+CUST-96328,Demo Pam Alvarado,39,Prefer not to say,City G,Savings,193130.97,624,2025-10-14
+CUST-84315,Demo Joseph Wu,47,Non-binary,City F,Savings,207236.31,831,2022-01-03
+CUST-26998,Demo Rodney Palmer,30,Male,City A,Savings,52028.21,698,2022-07-08
+CUST-93745,Demo Anne Doyle,22,Non-binary,City A,Savings,216576.1,686,2021-04-07
+CUST-96447,Demo Donald Bennett,37,Prefer not to say,City C,Current,101448.31,542,2025-10-04
+CUST-84732,Demo Ashley Lewis,67,Male,City F,Current,59197.15,752,2022-10-05
+CUST-18057,Demo Tammy Carr,36,Non-binary,City E,Current,236031.3,575,2022-06-14
+CUST-75257,Demo Corey Johnson,27,Non-binary,City C,Savings,68556.58,672,2022-08-29
+CUST-52671,Demo Gary Christian,56,Male,City E,Current,77829.05,816,2023-10-25
+CUST-00143,Demo Sarah Jackson,26,Female,City A,Current,71558.63,580,2022-08-16
+CUST-93283,Demo Connie Harper,50,Prefer not to say,City F,Savings,148966.76,829,2025-12-25
+CUST-44400,Demo Stephen Nelson,63,Prefer not to say,City A,Current,237693.47,509,2021-12-06
+CUST-19734,Demo Alexandra Barry,69,Prefer not to say,City E,Current,177170.5,815,2025-03-29
+CUST-92635,Demo Mark Hernandez,72,Prefer not to say,City H,Current,84499.41,657,2021-07-11
+CUST-17201,Demo Brittney Yates,34,Female,City F,Current,142352.24,527,2022-03-27
+CUST-39073,Demo Rebecca Lewis,51,Female,City E,Current,6828.76,547,2021-03-14
+CUST-69336,Demo Brooke Johnson,46,Female,City B,Current,115294.72,722,2025-08-10
+CUST-77128,Demo Paula Norris,25,Non-binary,City G,Current,218525.78,767,2023-09-17
+CUST-23013,Demo Jeffery Rodriguez,72,Male,City F,Current,26849.19,521,2025-12-18
+CUST-61558,Demo Amanda Gibbs,75,Male,City G,Savings,236473.44,684,2024-12-18
+CUST-45793,Demo Laura Hunter,37,Male,City G,Savings,185105.87,628,2024-03-02
+CUST-95510,Demo Crystal Sanchez,68,Prefer not to say,City G,Current,32647.7,774,2022-06-19
+CUST-67384,Demo Ricky Russell,28,Prefer not to say,City H,Savings,21944.29,824,2023-03-11
+CUST-58285,Demo Linda Gordon,62,Male,City G,Savings,81869.33,635,2023-10-17
+CUST-85060,Demo Luis Wagner,25,Male,City D,Savings,51806.22,820,2024-08-15
+CUST-35413,Demo Timothy Smith,59,Prefer not to say,City E,Savings,163109.47,524,2021-10-14
+CUST-99132,Demo Terry Robinson,27,Male,City H,Current,55834.09,538,2025-06-14
+CUST-00146,Demo Lisa Smith,34,Male,City D,Savings,129940.15,650,2022-11-13
+CUST-82822,Demo Jessica Torres,52,Prefer not to say,City H,Savings,205981.72,723,2022-08-27
+CUST-79269,Demo Alyssa Shaw,44,Female,City B,Current,138496.83,837,2022-03-18
+CUST-20966,Demo Jared Clay,63,Male,City C,Savings,5912.97,604,2024-07-14
+CUST-81876,Demo Daniel Smith,61,Non-binary,City F,Current,189816.08,782,2022-05-10
+CUST-20350,Demo Katie Perry,39,Male,City C,Current,243814.01,814,2025-03-05
+CUST-56590,Demo Monica Stone,37,Non-binary,City G,Current,113900.15,647,2021-11-30
+CUST-39857,Demo Christopher Smith,47,Female,City B,Savings,16632.09,523,2024-08-28
+CUST-58555,Demo Susan Evans,44,Female,City D,Current,94431.39,657,2024-08-04
+CUST-16177,Demo Mackenzie Cummings,55,Female,City C,Savings,283086.17,566,2022-10-15
+CUST-57145,Demo Mr. Timothy Gray,71,Non-binary,City A,Savings,13427.36,811,2023-04-15
+CUST-92862,Demo April Marshall,42,Prefer not to say,City C,Current,65085.74,747,2024-08-04
+CUST-99289,Demo Nicholas Jenkins,24,Female,City A,Savings,171008.71,709,2025-09-18
+CUST-66659,Demo Gregory Allen,22,Prefer not to say,City F,Current,264694.38,513,2025-01-02
+CUST-34274,Demo Jay Brown,48,Female,City H,Savings,92942.44,740,2023-03-25
+CUST-38161,Demo Marc Hahn,67,Prefer not to say,City H,Savings,291512.91,647,2025-03-01
+CUST-09552,Demo Elizabeth Wolfe,62,Non-binary,City F,Current,81493.48,608,2023-08-10
+CUST-05574,Demo Randy Watson,33,Non-binary,City A,Current,28350.29,700,2021-10-30
+CUST-40220,Demo Alex Larson,36,Male,City G,Savings,30192.72,522,2022-03-22
+CUST-90072,Demo Ms. Diana Morton,27,Prefer not to say,City E,Current,222296.59,805,2025-04-09
+CUST-89300,Demo Crystal Martinez,54,Prefer not to say,City H,Savings,288569.92,722,2021-09-07
+CUST-36738,Demo Jeff Gibson,57,Prefer not to say,City F,Current,201947.49,773,2023-10-07
+CUST-92732,Demo Lindsey Anderson,42,Non-binary,City H,Savings,166564.62,512,2021-10-31
+CUST-30301,Demo Joyce Mcdaniel,49,Male,City G,Current,169234.9,844,2023-09-17
+CUST-32721,Demo Kimberly Thomas,35,Non-binary,City E,Savings,23626.23,522,2022-11-16
+CUST-96664,Demo Joshua Franklin,69,Prefer not to say,City G,Savings,258396.63,698,2023-06-04
+CUST-24137,Demo Joshua Tran,24,Female,City C,Current,222784.4,637,2023-04-15
+CUST-10153,Demo Whitney Weaver,23,Female,City B,Current,8068.49,659,2024-06-30
+CUST-05321,Demo Kevin Morris,56,Prefer not to say,City B,Savings,257788.64,774,2025-09-06
+CUST-96002,Demo Kimberly Freeman,60,Male,City G,Savings,59485.82,829,2021-05-14
+CUST-46169,Demo Joshua Lowe,75,Non-binary,City D,Savings,100572.25,534,2021-12-04
+CUST-67670,Demo Jeffrey Lee,21,Prefer not to say,City B,Savings,296693.47,655,2023-02-19
+CUST-99207,Demo Christopher Sullivan,47,Prefer not to say,City G,Savings,148176.63,500,2025-03-12
+CUST-96587,Demo Lisa Boyle,33,Male,City B,Current,87531.85,621,2022-05-10
+CUST-58502,Demo Clarence Smith,50,Non-binary,City D,Savings,5998.45,663,2021-04-27
+CUST-13727,Demo Paul Johnson,40,Male,City A,Savings,195919.65,675,2024-08-06
+CUST-15684,Demo Steven Walls,47,Prefer not to say,City D,Savings,36024.68,520,2024-01-27
+CUST-81450,Demo Ashley Wright,69,Male,City B,Savings,250195.4,658,2023-08-29
+CUST-36924,Demo Elizabeth Shepard,54,Male,City H,Savings,58614.87,508,2022-02-16
+CUST-52262,Demo Lauren Rose,43,Non-binary,City B,Current,31894.06,826,2022-01-23
+CUST-48176,Demo John Reyes,61,Non-binary,City B,Current,10625.25,712,2022-05-16
+CUST-31320,Demo Christopher White,59,Prefer not to say,City E,Current,115350.89,820,2021-04-30
+CUST-66775,Demo Jennifer Reid,47,Prefer not to say,City H,Current,122308.46,656,2022-04-29
+CUST-09100,Demo Heather Case,50,Female,City G,Current,21724.49,637,2022-10-11
+CUST-33642,Demo Cristian Bailey,64,Non-binary,City F,Savings,299660.02,728,2021-05-30
+CUST-13575,Demo David Washington,41,Male,City G,Current,156080.34,607,2022-07-05
+CUST-81476,Demo Lori Lewis,42,Female,City B,Savings,190043.02,731,2021-06-12
+CUST-15207,Demo Lindsay Harmon,44,Non-binary,City E,Current,41390.84,841,2024-09-04
+CUST-70239,Demo John Perkins,59,Prefer not to say,City H,Current,165901.67,664,2022-04-08
+CUST-84595,Demo William Molina,60,Non-binary,City H,Current,166014.63,539,2024-08-26
+CUST-41945,Demo Joseph Clayton,52,Female,City C,Savings,160701.04,675,2025-08-09
+CUST-36220,Demo Joy Nunez,74,Prefer not to say,City F,Current,26013.77,847,2025-04-15
+CUST-66130,Demo Angela Carter,61,Prefer not to say,City G,Current,11888.93,685,2024-05-23
+CUST-94170,Demo Jason Rodriguez,50,Male,City D,Savings,178223.57,676,2024-04-09
+CUST-85699,Demo Michael Macdonald MD,55,Female,City D,Current,77761.93,802,2025-02-18
+CUST-61917,Demo Richard Diaz,49,Male,City D,Current,236126.5,787,2023-08-16
+CUST-81894,Demo Pamela Bryant,74,Non-binary,City A,Current,180496.05,527,2022-03-13
+CUST-30470,Demo Randy Cunningham,70,Female,City E,Current,136726.13,803,2025-01-15
+CUST-00325,Demo Grant Salas,46,Female,City C,Current,267983.79,771,2021-09-05
+CUST-83770,Demo Stacy Henry,67,Female,City A,Savings,124726.99,528,2022-04-06
+CUST-93637,Demo Kelly Franklin,28,Prefer not to say,City E,Current,143743.86,565,2022-05-11
+CUST-40388,Demo Melvin Phillips,74,Prefer not to say,City E,Current,103265.73,755,2021-07-08
+CUST-53201,Demo Kaitlin Hensley,54,Non-binary,City C,Savings,122558.82,582,2021-07-11
+CUST-90436,Demo Cynthia Bennett,34,Male,City A,Current,82591.81,808,2023-09-25
+CUST-26886,Demo Gregory Russo,59,Prefer not to say,City H,Savings,23014.41,664,2024-09-19
+CUST-83473,Demo Shannon Andrews,47,Non-binary,City A,Current,5610.7,656,2024-08-20
+CUST-10836,Demo Thomas Elliott,22,Female,City E,Current,49205.74,727,2025-04-25
+CUST-91300,Demo Maureen Olson,25,Female,City G,Current,203301.21,715,2023-10-13
+CUST-12774,Demo Amy Sims,47,Prefer not to say,City D,Current,254555.93,697,2022-08-31
+CUST-55460,Demo Laura Robles,39,Prefer not to say,City H,Savings,238844.14,775,2022-04-12
+CUST-78552,Demo Cheyenne Curry,21,Prefer not to say,City G,Current,274394.09,519,2022-11-10
+CUST-80239,Demo Bryan Guerrero,23,Prefer not to say,City A,Current,205509.3,766,2025-12-03
+CUST-77752,Demo Connie Castro,63,Male,City F,Savings,37441.98,501,2022-09-21
+CUST-93650,Demo Margaret Adkins,47,Male,City B,Current,184926.88,635,2022-10-09
+CUST-88523,Demo Victoria Evans,34,Prefer not to say,City G,Current,195611.57,582,2025-04-08
+CUST-36315,Demo Kerry Howard,56,Prefer not to say,City G,Savings,296083.89,787,2022-10-24
+CUST-98932,Demo Connie Le,21,Non-binary,City H,Savings,72022.54,661,2022-07-07
+CUST-07693,Demo Mary Moore,72,Female,City D,Current,246948.38,807,2022-02-14
+CUST-68892,Demo Christopher Cannon,29,Male,City A,Current,144343.44,525,2022-12-25
+CUST-48482,Demo Daniel Fleming,67,Female,City A,Savings,194196.65,705,2024-10-18
+CUST-47654,Demo Brian Andrews,45,Female,City E,Savings,59305.59,708,2022-07-22
+CUST-28361,Demo Erica Wolf,46,Female,City A,Current,130530.62,837,2024-04-04
+CUST-02175,Demo Kevin Quinn,49,Prefer not to say,City E,Savings,264083.23,792,2025-02-15
+CUST-00702,Demo Michael Barber,74,Male,City A,Savings,25558.03,726,2022-09-03
+CUST-95135,Demo Carol Roberts,28,Female,City B,Savings,146238.73,634,2022-08-30
+CUST-35411,Demo Katie Thomas,40,Male,City H,Current,63344.23,774,2021-04-11
+CUST-02540,Demo Toni Sanford,66,Prefer not to say,City H,Current,145521.19,795,2021-09-04
+CUST-64992,Demo Katherine Rogers,52,Male,City G,Savings,9417.26,610,2021-04-06
+CUST-25671,Demo Peter Hull,69,Male,City H,Current,69216.41,550,2024-05-04
+CUST-41251,Demo Ashley Clay,26,Female,City G,Savings,83733.03,796,2022-09-21
+CUST-45379,Demo David Velasquez,50,Female,City E,Savings,111111.73,546,2024-12-21
+CUST-29066,Demo Stacey Miller,49,Male,City C,Savings,132413.6,785,2023-08-26
+CUST-49769,Demo Courtney Rocha,38,Prefer not to say,City F,Current,225717.34,646,2021-03-06
+CUST-98752,Demo Brandon Randall,72,Non-binary,City D,Current,175194.27,831,2021-01-24
+CUST-23667,Demo Jason Martinez,36,Non-binary,City C,Current,212528.24,707,2025-09-30
+CUST-43370,Demo Carrie Lee,47,Non-binary,City D,Current,182679.1,800,2023-09-13
+CUST-19346,Demo Christopher Conley,74,Non-binary,City F,Savings,239820.88,724,2024-05-16
+CUST-31300,Demo Paul Becker,66,Non-binary,City B,Savings,14133.71,504,2022-10-08
+CUST-69339,Demo Joseph Ortega,54,Female,City B,Current,215984.36,671,2025-06-07
+CUST-45783,Demo Jose Nicholson,29,Prefer not to say,City D,Savings,187432.44,514,2025-02-01
+CUST-98658,Demo Robert Brown,52,Male,City H,Savings,206389.77,719,2023-10-07
+CUST-37734,Demo Matthew Leach,42,Male,City G,Current,197422.66,613,2024-07-11
+CUST-56427,Demo Rodney Valentine,46,Female,City H,Savings,37469.18,573,2025-11-28
+CUST-64519,Demo Steven Henderson,58,Male,City A,Savings,250131.89,764,2024-05-09
+CUST-19164,Demo John Campbell,66,Male,City E,Current,88285.84,543,2025-04-26
+CUST-94922,Demo Brianna Smith,64,Non-binary,City D,Current,148291.2,845,2024-01-02
+CUST-22783,Demo Nancy Atkinson,56,Female,City C,Savings,219226.41,772,2024-01-28
+CUST-54240,Demo Jonathan Johnson,51,Prefer not to say,City C,Current,34438.57,778,2023-05-28
+CUST-37747,Demo Mr. Jason Hamilton,37,Non-binary,City B,Current,240787.58,522,2022-07-29
+CUST-80186,Demo Denise Braun,33,Female,City G,Savings,55533.61,846,2023-01-23
+CUST-66599,Demo Ebony Fleming,31,Non-binary,City C,Savings,293245.05,641,2021-11-27
+CUST-92014,Demo Annette Kane,67,Female,City G,Current,114373.27,761,2024-05-22
+CUST-84292,Demo Lindsey Lindsey,55,Male,City D,Current,108969.61,639,2024-05-29
+CUST-18795,Demo Bryan Wilson,69,Non-binary,City A,Current,9390.39,518,2024-06-23
+CUST-57163,Demo Robert Rose,39,Non-binary,City D,Savings,197792.74,604,2025-02-16
+CUST-00216,Demo Helen Arroyo,42,Non-binary,City E,Current,39834.25,841,2025-11-10
+CUST-77698,Demo Elizabeth Johnson,57,Non-binary,City B,Current,220547.98,715,2022-12-11
+CUST-03076,Demo Kevin White,26,Prefer not to say,City C,Savings,272824.18,565,2024-01-24
+CUST-75372,Demo Daniel Roach,43,Female,City F,Savings,49563.47,615,2022-08-18
+CUST-42264,Demo Catherine Burns,65,Prefer not to say,City F,Savings,55840.67,524,2022-06-15
+CUST-71006,Demo Jim Mitchell,38,Female,City C,Current,127585.28,518,2022-06-17
+CUST-53548,Demo Jennifer Chen,64,Prefer not to say,City C,Savings,114407.19,734,2021-09-25
+CUST-88035,Demo Bianca Harris,28,Prefer not to say,City H,Savings,88595.87,771,2025-12-27
+CUST-08437,Demo Michael Campbell,44,Male,City A,Current,186667.02,557,2022-03-08
+CUST-81083,Demo Jose Prince,30,Female,City B,Savings,176138.56,558,2023-09-02
+CUST-75508,Demo Katelyn Jacobs,75,Male,City C,Current,117207.36,827,2022-02-24
+CUST-42798,Demo Joseph Brandt,63,Male,City D,Savings,191688.2,776,2024-05-06
+CUST-48931,Demo Matthew Anderson,67,Female,City D,Current,55784.69,655,2025-03-09
+CUST-24373,Demo Scott Miller,44,Female,City E,Savings,290604.05,657,2024-12-30
+CUST-42904,Demo Ryan Jackson,42,Non-binary,City E,Current,133385.86,577,2025-12-11
+CUST-54297,Demo Joseph Powers,32,Female,City D,Current,116141.12,718,2024-07-10
+CUST-08426,Demo Jamie Allen,69,Male,City G,Current,284059.74,536,2023-01-15
+CUST-94365,Demo Stephanie Snyder,46,Prefer not to say,City H,Savings,263186.73,820,2022-10-01
+CUST-01738,Demo Steven Jackson,29,Prefer not to say,City G,Current,146505.87,612,2024-08-12
+CUST-65629,Demo Patricia Hammond,23,Female,City B,Current,183118.09,626,2025-03-04
+CUST-55437,Demo Eric Shaw,33,Male,City F,Current,212596.96,633,2023-08-23
+CUST-82427,Demo Natalie Ferguson,60,Male,City H,Current,86633.25,787,2022-11-15
+CUST-84817,Demo Jeffery Hurley,28,Male,City A,Current,197826.19,627,2024-12-04
+CUST-59257,Demo Duane Powell,33,Prefer not to say,City D,Savings,249392.56,841,2025-06-16
+CUST-69672,Demo Kimberly Barnes,58,Non-binary,City F,Savings,70980.18,735,2023-09-28
+CUST-96595,Demo Angela Anderson DVM,37,Male,City H,Savings,105230.02,649,2023-07-14
+CUST-97106,Demo Tanner Wagner,62,Female,City G,Current,135199.1,514,2025-03-24
+CUST-74546,Demo Deborah Johnson,60,Prefer not to say,City D,Savings,197434.38,567,2024-07-20
+CUST-55782,Demo Michael Jones,40,Female,City C,Savings,93775.38,615,2023-09-22
+CUST-92961,Demo Bruce Williams,69,Male,City F,Savings,172745.97,747,2025-04-25
+CUST-04927,Demo Ashley Ramirez,54,Female,City B,Savings,148968.77,665,2023-09-11
+CUST-35439,Demo Albert Garza,56,Non-binary,City G,Current,273384.93,503,2023-05-04
+CUST-39878,Demo Gabriel Gibbs,55,Female,City G,Savings,195902.83,791,2024-10-09
+CUST-58165,Demo Steven Rangel,56,Male,City E,Current,147981.96,537,2025-09-06
+CUST-87906,Demo Mrs. Jennifer Reese MD,43,Non-binary,City D,Savings,83948.38,614,2021-05-13
+CUST-61239,Demo Matthew Foster,63,Prefer not to say,City H,Savings,14652.0,752,2024-06-08
+CUST-52065,Demo Deanna Vargas,56,Female,City B,Savings,159906.2,680,2021-01-25
+CUST-46721,Demo Raymond Cline,71,Prefer not to say,City F,Current,52082.03,729,2022-05-19
+CUST-72871,Demo Gregory Adams,73,Non-binary,City C,Savings,135813.7,815,2025-03-12
+CUST-24635,Demo Dale Burns,25,Female,City D,Savings,107258.67,702,2025-03-17
+CUST-79179,Demo Toni Lee,62,Prefer not to say,City G,Savings,136627.64,697,2021-08-27
+CUST-84417,Demo Steven Gilbert,67,Male,City C,Savings,30931.73,652,2022-01-02
+CUST-43480,Demo Paul Mejia,65,Female,City C,Current,254164.2,702,2025-09-20
+CUST-83031,Demo Karl Sandoval,50,Non-binary,City D,Current,158.16,542,2024-10-14
+CUST-03123,Demo Cindy Hunter,34,Female,City D,Savings,149661.88,703,2021-12-02
+CUST-52873,Demo Matthew Lucero,46,Prefer not to say,City D,Current,82707.94,741,2025-10-05
+CUST-38983,Demo Tina Mccoy,74,Female,City F,Current,275814.18,580,2022-06-24
+CUST-72997,Demo Gordon Jordan,54,Non-binary,City B,Current,109883.96,797,2022-10-10
+CUST-92072,Demo Amy Holmes,27,Male,City E,Savings,123327.85,544,2023-09-28
+CUST-51684,Demo Dennis Gonzales,26,Female,City H,Savings,49585.75,788,2023-02-12
+CUST-54036,Demo Antonio Scott,49,Prefer not to say,City G,Current,103535.42,760,2025-01-20
+CUST-61136,Demo Renee Moreno,65,Non-binary,City H,Current,131823.47,850,2025-04-23
+CUST-27767,Demo Sherry Rosales,54,Prefer not to say,City E,Current,112913.23,759,2023-06-14
+CUST-37275,Demo Daniel Burnett,47,Non-binary,City G,Current,296783.49,754,2023-01-19
+CUST-64735,Demo Emily Sharp,65,Non-binary,City H,Current,91917.56,523,2021-10-03
+CUST-26107,Demo Jeffrey Charles,36,Female,City B,Current,174572.03,555,2022-01-16
+CUST-32982,Demo Marcus Bell,44,Non-binary,City E,Current,196869.59,807,2023-08-18
+CUST-62337,Demo Cheryl Johnson,38,Non-binary,City C,Current,97269.96,724,2025-03-05
+CUST-61652,Demo Carlos Park,66,Male,City C,Savings,295386.89,704,2024-10-11
+CUST-32495,Demo Derrick Watts,45,Male,City C,Current,296069.66,538,2025-10-10
+CUST-58221,Demo Janice Thompson,57,Female,City B,Current,17588.16,771,2022-05-26
+CUST-41213,Demo Christopher Mckinney,51,Prefer not to say,City H,Savings,282994.6,721,2024-07-21
+CUST-50334,Demo Amber Smith DVM,52,Prefer not to say,City E,Savings,263807.67,501,2022-01-14
+CUST-01135,Demo Diane Hunter,61,Non-binary,City G,Current,65180.33,555,2022-08-12
+CUST-86957,Demo James Miller,33,Prefer not to say,City A,Current,32183.35,788,2021-11-24
+CUST-57992,Demo Marie Ho,72,Male,City A,Savings,84214.75,580,2023-02-03
+CUST-55804,Demo Megan Atkinson,59,Non-binary,City D,Current,107657.26,814,2025-06-10
+CUST-21092,Demo Jonathan Zuniga,69,Female,City G,Savings,192793.51,850,2023-12-24
+CUST-16336,Demo Shannon Lopez,41,Male,City D,Current,54036.26,612,2025-04-21
+CUST-99774,Demo Andrew Green,60,Non-binary,City F,Current,110401.64,632,2023-03-28
+CUST-32600,Demo Jennifer Hines,58,Female,City D,Current,230319.88,796,2023-07-17
+CUST-37481,Demo David Holt,43,Male,City F,Current,284111.27,751,2022-02-19
+CUST-18753,Demo Matthew Lester,39,Male,City H,Savings,112687.76,581,2021-09-13
+CUST-65598,Demo Heidi Ayers,41,Female,City A,Savings,4554.39,727,2022-06-26
+CUST-87041,Demo Janice Smith,50,Prefer not to say,City E,Savings,8782.31,581,2021-02-07
+CUST-84836,Demo Megan Haynes,70,Prefer not to say,City H,Current,251883.03,743,2023-01-21
+CUST-44683,Demo Oscar Trevino,48,Female,City B,Current,230455.73,551,2022-06-21
+CUST-05570,Demo Monica Anderson,33,Female,City H,Current,189725.22,830,2021-01-03
+CUST-47143,Demo Derrick Pena,35,Prefer not to say,City E,Savings,72454.4,675,2024-08-19
+CUST-79907,Demo Jordan Le,34,Male,City D,Savings,109284.89,844,2025-03-29
+CUST-92623,Demo Judith Williams,52,Non-binary,City A,Savings,283301.25,649,2025-01-24
+CUST-16529,Demo Michelle Harris,57,Prefer not to say,City D,Savings,66587.42,507,2022-01-10
+CUST-95120,Demo David Collins,36,Non-binary,City H,Savings,247642.44,624,2024-07-13
+CUST-69913,Demo Lisa Cowan,27,Non-binary,City E,Current,102567.03,619,2022-12-01
+CUST-60023,Demo Kenneth Stewart,45,Female,City C,Current,231315.02,701,2023-04-11
+CUST-59835,Demo Sharon Abbott,21,Male,City D,Savings,109501.08,651,2024-09-28
+CUST-67400,Demo Sheena Kelly,69,Non-binary,City B,Savings,91945.15,709,2021-08-18
+CUST-43462,Demo Michelle Rodriguez,36,Non-binary,City C,Savings,58544.34,686,2021-03-22
+CUST-30223,Demo Amber Gardner,26,Non-binary,City B,Current,52759.91,584,2021-01-09
+CUST-98304,Demo Jennifer Schmidt,23,Non-binary,City G,Current,39259.13,590,2025-10-23
+CUST-05396,Demo Crystal Kennedy,51,Non-binary,City A,Savings,9765.83,622,2023-07-17
+CUST-60903,Demo James Dawson,66,Female,City A,Current,261070.73,718,2021-04-03
+CUST-58699,Demo Jacob Snyder,25,Female,City H,Savings,34971.39,796,2023-01-10
+CUST-19921,Demo James Castillo,75,Female,City H,Current,260764.87,790,2024-09-04
+CUST-61967,Demo Donna Ruiz MD,34,Male,City F,Savings,111848.92,696,2023-02-22
+CUST-12648,Demo Carlos Silva,74,Female,City G,Savings,272790.33,769,2022-11-07
+CUST-77579,Demo Anthony Liu,61,Male,City G,Savings,3622.39,720,2021-10-17
+CUST-95566,Demo Lisa Hernandez PhD,58,Prefer not to say,City A,Current,74844.25,520,2021-11-02
+CUST-24550,Demo Claire Smith,57,Non-binary,City E,Current,78617.73,808,2024-07-15
+CUST-78360,Demo Jonathan Dixon,34,Prefer not to say,City H,Current,292443.15,571,2022-11-01
+CUST-05993,Demo Michael Morris,64,Prefer not to say,City G,Current,171724.99,593,2022-07-28
+CUST-60492,Demo Russell Diaz,21,Male,City G,Savings,205675.69,531,2023-04-16
+CUST-64349,Demo Roger Stephenson,33,Female,City B,Current,79205.82,734,2024-02-03
+CUST-48408,Demo Steven Butler,43,Non-binary,City G,Current,92445.77,736,2021-12-08
+CUST-57441,Demo Joseph Gutierrez,58,Non-binary,City D,Current,182699.05,821,2023-11-24
+CUST-96612,Demo Carlos Henry,41,Male,City F,Current,218927.34,827,2025-12-02
+CUST-82276,Demo Gary Schmidt,59,Prefer not to say,City H,Current,228848.16,744,2025-12-08
+CUST-42151,Demo Allen Reed,66,Non-binary,City D,Savings,87742.66,539,2021-10-30
+CUST-02103,Demo David Davidson,34,Prefer not to say,City H,Current,149830.05,818,2021-02-13
+CUST-84256,Demo Harold Davis,42,Female,City D,Savings,208789.63,570,2022-01-05
+CUST-76695,Demo Antonio Jones,60,Non-binary,City H,Savings,204731.13,827,2024-08-09
+CUST-74442,Demo Justin Harris,38,Non-binary,City D,Current,53246.69,569,2025-07-12
+CUST-36550,Demo Sandra Garcia,45,Prefer not to say,City C,Current,90284.13,687,2022-09-25
+CUST-14174,Demo Joseph Dennis,25,Non-binary,City A,Current,20025.43,681,2021-03-15
+CUST-76173,Demo Michelle Anderson,66,Female,City C,Savings,4845.46,780,2021-03-08
+CUST-79134,Demo Theresa Miller,35,Non-binary,City D,Savings,190113.19,658,2021-05-18
+CUST-57214,Demo Melissa Stanley,24,Prefer not to say,City H,Current,296204.31,642,2022-01-01
+CUST-92958,Demo Jennifer Romero,46,Non-binary,City H,Savings,15997.6,687,2023-05-06
+CUST-55839,Demo Juan Charles,29,Non-binary,City C,Current,2465.39,505,2024-09-10
+CUST-09740,Demo Johnny Townsend,52,Prefer not to say,City H,Savings,162586.11,617,2023-11-08
+CUST-90060,Demo William Willis,45,Female,City A,Savings,219799.83,597,2024-12-01
+CUST-74582,Demo Ronald Cole,53,Female,City D,Savings,165283.37,725,2021-12-20
+CUST-57012,Demo Don Anderson,57,Female,City G,Current,100051.29,535,2021-07-11
+CUST-41698,Demo Derrick Herring,29,Male,City C,Savings,77560.16,581,2022-11-12
+CUST-62991,Demo Charles Larson,36,Non-binary,City B,Savings,116262.27,607,2025-11-04
+CUST-86483,Demo Tracey Herrera,22,Prefer not to say,City D,Savings,207805.6,533,2023-10-20
+CUST-61878,Demo Shannon Higgins,67,Male,City D,Savings,155271.79,702,2022-01-09
+CUST-26958,Demo Mr. Timothy Morales,53,Prefer not to say,City E,Savings,151847.08,849,2022-08-22
+CUST-65394,Demo Cynthia Rivera,67,Female,City D,Savings,155968.41,717,2021-10-10
+CUST-89750,Demo Jesus Green,26,Male,City C,Current,57610.96,791,2022-05-11
+CUST-38171,Demo Steve Snyder,75,Female,City H,Current,190305.66,661,2023-10-12
+CUST-82914,Demo Nathan Kelly,35,Non-binary,City F,Current,209058.28,540,2021-01-18
+CUST-16349,Demo Jacob Boyd,70,Female,City E,Savings,15298.65,648,2025-01-06
+CUST-60017,Demo Daniel Ryan,57,Prefer not to say,City G,Current,100296.01,824,2024-03-13

@@ -1,16 +1,42 @@
-
-# Python virtual environment
+# Python virtual environments
 .venv/
+venv/
+env/
 
 # Python cache
 __pycache__/
 *.py[cod]
+.pytest_cache/
 
-# macOS files
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# macOS
 .DS_Store
 
-# Jupyter Notebook checkpoints
+# Streamlit
+.streamlit/
+
+# Jupyter
 .ipynb_checkpoints/
 
+# Build files
+build/
+dist/
+*.egg-info/
+# Python cache and testing
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+
 # Temporary files
-*.tmp
+*.log
+.DS_Store
