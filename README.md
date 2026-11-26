@@ -1,103 +1,295 @@
 # Banking & Financial Analytics
 
-A portfolio-ready Streamlit dashboard for exploring banking operations, customer segments, transactions, and credit risk. The project creates its own reproducible synthetic dataset locally; it does not ship customer CSV files, a database, or generated reports.
+An end-to-end banking analytics project that explores customer profiles, transaction activity, loan performance, and credit risk using **Python, SQL, SQLite, Excel, and Streamlit**.
 
-## Features
+The project combines data preparation, exploratory analysis, SQL-based business queries, an interactive dashboard, and an Excel reporting workbook.
 
-- Overview KPIs and interactive Plotly visualizations
-- Customer, transaction, loan, and credit-risk analytics
-- Date, city, and account-type filters
-- Searchable, sortable data tables
-- Filtered CSV, Excel, and PDF exports
-- SQLite database access is read-only in the dashboard
-- Seeded Faker data generation with a configurable record count
+> **Dataset notice:** All datasets used in this project are synthetic and created for educational and portfolio demonstration purposes. They do not represent real customers or financial accounts.
 
-## Technology
+---
 
-Python 3.12+, Streamlit, Pandas, NumPy, Plotly, Faker, SQLite, OpenPyXL, and ReportLab.
+## Project at a Glance
 
-## Setup
+| Area | Details |
+|---|---|
+| Domain | Banking & Financial Services |
+| Analysis | Customer analytics, transaction analysis, loan analysis, credit risk |
+| Programming | Python, Pandas, NumPy |
+| Database | SQLite, SQL |
+| Reporting | Excel |
+| Dashboard | Streamlit, Plotly |
+| Data | Synthetic CSV datasets |
+
+## Dashboard Preview
+
+The repository includes dashboard screenshots in the `screenshots/` folder.
+
+### Overview
+![Dashboard overview](screenshots/overview.png)
+
+### Customer Analytics
+![Customer analytics](screenshots/customer-analytics.png)
+
+### Transaction Analytics
+![Transaction analytics](screenshots/transaction-analytics.png)
+
+### Loan Risk Analysis
+![Loan risk analysis](screenshots/loan-risk.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## Business Problem
+
+Banking teams need to understand customer activity, monitor transaction patterns, evaluate loan portfolios, and identify potential credit risk. This project demonstrates how structured datasets can be prepared and analyzed to produce useful business summaries and visual reports.
+
+## Project Objectives
+
+- Analyze customer demographics and account balances.
+- Explore transaction volumes, types, and trends.
+- Evaluate loan distribution and loan status.
+- Examine credit scores in relation to loan defaults.
+- Compare customer and loan activity across cities.
+- Present findings through an interactive dashboard and Excel report.
+
+## Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Python | Data processing and analysis |
+| Pandas | Data cleaning and manipulation |
+| NumPy | Numerical operations |
+| SQLite | Relational data storage |
+| SQL | Business queries and analytical summaries |
+| Matplotlib / Seaborn | Data visualization |
+| Streamlit | Interactive dashboard |
+| Plotly | Interactive charts |
+| Excel | Dashboard-style reporting |
+| OpenPyXL | Excel workbook formatting and automation |
+
+## Dataset Description
+
+The project uses three synthetic datasets:
+
+| Dataset | Records | Description |
+|---|---:|---|
+| `customers.csv` | 500 | Customer and account information |
+| `transactions.csv` | 5,000 | Banking transaction records |
+| `loans.csv` | 800 | Loan information and status |
+
+The datasets are linked through the common `customer_id` field.
+
+**Important:** These are synthetic records, not actual banking or customer data.
+
+## Analysis Performed
+
+### 1. Customer Analytics
+- Customer and account overview
+- Account balance analysis
+- City-wise customer comparisons
+- Customer segmentation and summaries
+
+### 2. Transaction Analytics
+- Transaction type analysis
+- Deposit and withdrawal activity
+- Transaction volume comparisons
+- City-wise transaction analysis
+- Transaction summaries and trends
+
+### 3. Loan & Credit Risk Analysis
+- Loan status distribution
+- Loan portfolio analysis
+- Credit score categorization
+- Credit score versus loan default analysis
+- City-wise loan risk analysis
+
+### 4. SQL Analysis
+The SQL scripts demonstrate:
+- Filtering, sorting, and aggregation
+- Joins across banking datasets
+- Grouped business summaries
+- Customer ranking
+- Window functions
+- Running totals and transaction comparisons
+- Loan and credit-risk queries
+
+## Key Findings
+
+The current analysis documented in this project reports the following observations:
+
+- 500 customers, 5,000 transactions, and 800 loans were analyzed.
+- Deposit transactions have the highest transaction count.
+- Delhi has the highest transaction volume among the cities analyzed.
+- Active loans represent the largest loan-status category.
+- The overall loan default rate is approximately **8.88%**.
+- Customers in the low credit-score category have a higher loan-default percentage than customers in higher credit-score categories.
+
+These findings are based on the synthetic datasets included in this repository and should not be interpreted as real-world banking statistics.
+
+## Excel Report
+
+The formatted Excel workbook is available here:
+
+[**Open / download the final Excel report**](reports/Banking_Financial_Analytics_final.xlsx)
+
+The workbook contains analysis sheets for:
+- Dashboard
+- Customers
+- Transactions
+- Loans
+- Transaction Summary
+- Loan Summary
+- City Analysis
+- Credit Risk
+
+## Project Structure
+
+```text
+Banking-Financial-Analytics/
+│
+├── dashboard/
+│   ├── __init__.py
+│   ├── analytics.py
+│   ├── app.py
+│   ├── charts.py
+│   ├── data.py
+│   ├── exports.py
+│   └── styles.py
+│
+├── dataset/
+│   ├── customers.csv
+│   ├── loans.csv
+│   ├── transactions.csv
+│   └── README.md
+│
+├── python/
+│   ├── __init__.py
+│   ├── data_cleaning.py
+│   ├── eda.py
+│   ├── export_data.py
+│   ├── format_charts.py
+│   ├── format_dashboard.py
+│   ├── generate_synthetic_data.py
+│   └── main.py
+│
+├── reports/
+│   ├── Banking_Financial_Analytics_final.xlsx
+│   └── README.md
+│
+├── screenshots/
+│   ├── customer-analytics.png
+│   ├── dashboard.png
+│   ├── loan-risk.png
+│   ├── overview.png
+│   └── transaction-analytics.png
+│
+├── sql/
+│   ├── banking_analysis.sql
+│   └── banking_analysis_queries.sql
+│
+├── tests/
+│   └── test_dashboard_analytics.py
+│
+├── banking.db
+├── requirements.txt
+└── README.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.10 or later
+- pip
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/mayankspppp/Banking-Financial-Analytics.git
+cd Banking-Financial-Analytics
+```
+
+### 2. Create and activate a virtual environment
+
+**macOS / Linux**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+**Windows**
+```powershell
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit dashboard
 
 From the project root:
 
 ```bash
-python3.12 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+streamlit run dashboard/app.py
 ```
 
-Generate the local CSV files and SQLite database:
+Streamlit will display a local URL in the terminal. Open that URL in your browser to use the dashboard.
 
-```bash
-python -m python.generate_synthetic_data --seed 20261126
-```
-
-Generation stops if its output files already exist. To deliberately regenerate them:
-
-```bash
-python -m python.generate_synthetic_data --seed 20261126 --overwrite
-```
-
-### Fictional data contract
-
-The source project has customers, transactions, and loans tables. This generator keeps their existing fields and adds `customer_name` to customers. Every name is prefixed with `Demo`, customer/transaction/loan IDs are generated, city values are labels such as `City A`, and all amounts, scores, statuses, and dates are newly generated. No original database, workbook, or CSV records are read or copied. Contact details and account numbers are not generated.
-
-The default output contains exactly 500 customers, 5,000 transactions, and 800 loans. Faker and NumPy are both seeded from `--seed`; repeating a seed with the pinned Faker dependency reproduces the same records. Every transaction and loan customer ID is selected from the generated customer IDs. The SQLite database includes a `dataset_metadata` row explicitly labeled **FICTIONAL DEMONSTRATION DATA** with the seed and generator library versions.
-
-Generated CSVs and the SQLite database are local-only and ignored by Git. Their fictional status is also documented in [`dataset/README.md`](dataset/README.md).
-
-## Run the dashboard
-
-Run from the project root:
-
-```bash
-PYTHONPATH="$PWD" .venv/bin/python -m streamlit run dashboard/app.py
-```
-
-Then open [http://localhost:8501](http://localhost:8501). Keep the terminal open while using the dashboard.
-
-PowerShell:
-
-```powershell
-$env:PYTHONPATH = (Get-Location).Path
-.\.venv\Scripts\python.exe -m streamlit run dashboard/app.py
-```
-
-## Hosted deployment
-
-No hosted deployment target is configured or tested. A clean checkout intentionally has no database or CSV data, so a host must run the synthetic-data generator with a chosen seed before starting Streamlit. Do not commit generated data to make deployment work. Use a host with a supported pre-start/build step and persistent-enough local storage for the generated database; provider-specific setup remains to be added and verified.
-
-## Analysis scripts
-
-After generating the data, the existing Python scripts can inspect it and create local Excel reports:
+### 5. Run the Python analysis
 
 ```bash
 python python/main.py
-python python/eda.py
-python python/export_data.py
-python python/format_dashboard.py
-python python/format_charts.py
 ```
 
-These report scripts use only the generated local CSV files. Their outputs are excluded from Git.
+Additional scripts are available in the `python/` folder for data cleaning, EDA, exports, and report formatting.
 
-## SQL
+### 6. Explore the SQL analysis
 
-The read-only analysis queries are in [`sql/banking_analysis_queries.sql`](sql/banking_analysis_queries.sql). Run them against the locally generated `banking.db` using a SQLite client.
+Open the SQL scripts in the `sql/` folder and run the queries against the included SQLite database using a SQLite-compatible tool.
 
-## Tests
+## Testing
+
+The repository includes dashboard analytics tests in:
+
+```text
+tests/test_dashboard_analytics.py
+```
+
+Run the test suite from the project root:
 
 ```bash
-python -m unittest discover -s tests -v
+pytest
 ```
 
-Tests generate isolated synthetic data in temporary directories and do not require the local database.
+## What This Project Demonstrates
 
-## Screenshots
+- Data cleaning and exploratory data analysis
+- Relational data analysis using SQL and SQLite
+- Customer, transaction, and loan analytics
+- Credit-risk exploration
+- Interactive dashboard development
+- Excel reporting and visualization
+- Organizing an analytics project for reproducibility
 
-Add genuine dashboard screenshots under `docs/screenshots/` before publishing. No screenshots are included yet.
+## Future Improvements
 
-## Data and privacy
+- Add automated data-quality checks and validation.
+- Add more interactive dashboard filters.
+- Expand time-based trend analysis.
+- Add a repeatable end-to-end pipeline for generating datasets and reports.
+- Improve test coverage for data processing and dashboard components.
 
-The generator creates fictional demonstration records from Faker and NumPy using a reproducible seed. Do not put real customer or financial information in this repository. Generated databases, CSVs, exports, virtual environments, caches, and local Streamlit configuration are ignored.
+## Disclaimer
+
+This project is for educational and portfolio demonstration purposes only. All datasets are synthetic. The analysis is not financial advice, a credit decision system, or a representation of any real bank or customer.
+
+---
+
+**Built as a Data Analytics portfolio project using Python, SQL, SQLite, Excel, and Streamlit.**
