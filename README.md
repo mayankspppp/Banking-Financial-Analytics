@@ -1,5 +1,19 @@
 # Banking & Financial Analytics
 
+
+<p align="center">
+  <a href="https://banking-financial-analytics-mayank.streamlit.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Streamlit-red?style=for-the-badge&logo=streamlit" alt="Live Demo"/>
+  </a>
+  <a href="https://github.com/mayankspppp/Banking-Financial-Analytics">
+    <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github" alt="GitHub"/>
+  </a>
+</p>
+
+**Live Dashboard:** https://banking-financial-analytics-mayank.streamlit.app/
+
+**GitHub Repository:** https://github.com/mayankspppp/Banking-Financial-Analytics
+
 An end-to-end banking analytics project that explores customer profiles, transaction activity, loan performance, and credit risk using **Python, SQL, SQLite, Excel, and Streamlit**.
 
 The project combines data preparation, exploratory analysis, SQL-based business queries, an interactive dashboard, and an Excel reporting workbook.
